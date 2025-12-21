@@ -1,7 +1,16 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
+const isPortable = process.cwd().startsWith('P:')
+
 export default defineConfig({
   plugins: [react()],
+  resolve: {
+    preserveSymlinks: isPortable
+  },
+  server: {
+    fs: {
+      strict: !isPortable
+    }
+  }
 })

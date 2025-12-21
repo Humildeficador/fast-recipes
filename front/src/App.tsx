@@ -1,3 +1,4 @@
+import { Button } from '@chakra-ui/react'
 import { api } from './services/api'
 
 export function App() {
@@ -11,7 +12,7 @@ export function App() {
   return (
     <>
       <h1>Fast Recipes</h1>
-      <button onClick={getHealth}>Get Health</button>
+      <Button onClick={getHealth}>Get Health</Button>
     </>
   )
 }
