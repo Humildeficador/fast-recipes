@@ -1,18 +1,29 @@
-import { Button } from '@chakra-ui/react'
 import { api } from './services/api'
+import { useEffect, useState } from 'react'
+import type { CategoryList } from './types/types'
+import { Categories } from './components/Categories/Categories'
 
 export function App() {
+  const [categories, setCategories] = useState<CategoryList>([])
 
-  async function getHealth() {
-    const res = await api.get('/health')
+  useEffect(() => {
+    async function getCategories() {
+      const { data } = await api.get<CategoryList>('/categories')
+      setCategories(() => data)
+    }
 
-    console.log(res)
-  }
+    getCategories()
+  }, [])
 
   return (
     <>
-      <h1>Fast Recipes</h1>
-      <Button onClick={getHealth}>Get Health</Button>
+      {categories.map(({ id, medications, name }) => (
+        <Categories
+          key={id}
+          name={name}
+          medications={medications}
+        />
+      ))}
     </>
   )
 }
