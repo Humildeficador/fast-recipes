@@ -3,10 +3,10 @@ export type CategoryList = CategoryType[]
 export interface CategoryType {
   id: number,
   name: string,
-  medications: MedicationsType[]
+  medications: MedicationType[]
 }
 
-export interface MedicationsType {
+export interface MedicationType {
   id: number
   name: string
   categoryId: number
@@ -14,4 +14,9 @@ export interface MedicationsType {
   duration?: string
   frequency?: string
   quantity?: string
+}
+
+export interface MedicationProps {
+  name: string
+  id: number
 }

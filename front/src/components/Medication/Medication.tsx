@@ -1,16 +1,27 @@
-import { Checkbox } from "@chakra-ui/react"
+import { usePrescription } from '../../hooks/usePrescription'
+import type { MedicationType } from '../../types/types'
+import { Checkbox, type CheckboxCheckedChangeDetails } from "@chakra-ui/react"
 
-interface MedicationProps {
-  name: string
-}
+export function Medication(medication: MedicationType) {
 
-export function Medication({ name }: MedicationProps) {
+  const { handleSetMedications } = usePrescription()
+
+  async function handleCheck({ checked }: CheckboxCheckedChangeDetails) {
+    console.log(checked)
+
+    if (checked) {
+      handleSetMedications(medication)
+    }
+  }
+
   return (
-    <Checkbox.Root>
+    <Checkbox.Root
+      onCheckedChange={handleCheck}
+    >
       <Checkbox.HiddenInput />
       <Checkbox.Control />
       <Checkbox.Label>
-        {name}
+        {medication.name}
       </Checkbox.Label>
     </Checkbox.Root>
   )
