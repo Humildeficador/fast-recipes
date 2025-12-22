@@ -7,7 +7,7 @@ type CategoryProps = Omit<CategoryType, 'id'>
 export function Categories({ name, medications }: CategoryProps) {
 
   return (
-    <Accordion.Item value={name}>
+    <Accordion.Item value={name} >
       <Accordion.ItemTrigger>
         <Accordion.ItemIndicator />
         <Span flex="1">{name}</Span>

@@ -8,7 +8,7 @@ import { Container } from '@chakra-ui/react'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Provider>
-      <Container>
+      <Container pt={4}>
         <App />
       </Container>
     </Provider>
