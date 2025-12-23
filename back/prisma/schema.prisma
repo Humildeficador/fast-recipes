@@ -26,14 +26,13 @@ model Category {
 }
 
 model Medication {
-  id         Int    @id @default(autoincrement())
-  name       String
+  id   Int    @id @default(autoincrement())
+  name String
 
-  dosage    String
+  dosage    String?
   frequency String?
   duration  String?
   quantity  String?
 
-  categoryId Int
-  category Category @relation(fields: [categoryId], references: [id])
+  categories Category[]
 }
