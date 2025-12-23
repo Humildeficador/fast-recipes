@@ -1,9 +1,10 @@
 import { api } from './services/api'
 import { useEffect, useState } from 'react'
-import { Accordion, Span, Stack } from "@chakra-ui/react"
+import { Accordion, Stack } from "@chakra-ui/react"
 import type { CategoryList } from './types/types'
 import { Categories } from './components/Categories/Categories'
 import { usePrescription } from './context/PrescriptionContext'
+import { SelectedMedication } from './components/SelectedMedication/SelectedMedication'
 
 export function App() {
   const [categories, setCategories] = useState<CategoryList>([])
@@ -35,8 +36,8 @@ export function App() {
 
       {medications.length > 0 &&
         <Stack mt={5} gap={2}>
-          {medications.map(({ name, id }) => (
-            <Span key={id}>{name}</Span>
+          {medications.map((medication) => (
+            <SelectedMedication medication={medication} key={medication.id} />
           ))}
         </Stack>
       }
