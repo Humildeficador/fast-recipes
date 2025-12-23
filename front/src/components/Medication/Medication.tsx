@@ -1,22 +1,20 @@
-import { usePrescription } from '../../hooks/usePrescription'
+import { Checkbox } from "@chakra-ui/react"
 import type { MedicationType } from '../../types/types'
-import { Checkbox, type CheckboxCheckedChangeDetails } from "@chakra-ui/react"
+import { usePrescription } from '../../context/PrescriptionContext'
 
-export function Medication(medication: MedicationType) {
+interface MedicationProps {
+  medication: MedicationType
+}
 
-  const { handleSetMedications } = usePrescription()
+export function Medication({ medication }: MedicationProps) {
+  const { medications, toggleMedication } = usePrescription()
 
-  async function handleCheck({ checked }: CheckboxCheckedChangeDetails) {
-    console.log(checked)
-
-    if (checked) {
-      handleSetMedications(medication)
-    }
-  }
+  const isChecked = medications.some(m => m.id === medication.id)
 
   return (
     <Checkbox.Root
-      onCheckedChange={handleCheck}
+      onCheckedChange={() => toggleMedication(medication)}
+      checked={isChecked}
     >
       <Checkbox.HiddenInput />
       <Checkbox.Control />

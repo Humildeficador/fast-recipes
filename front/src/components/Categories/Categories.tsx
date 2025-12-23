@@ -14,11 +14,11 @@ export function Categories({ name, medications }: CategoryProps) {
       </Accordion.ItemTrigger>
       <Accordion.ItemContent>
         <Accordion.ItemBody>
-          {medications.map((medication) => (
-            <Stack padding="4" borderWidth="1px" key={medication.id}>
-              <Medication medication={medication} key={medication.id} />
-            </Stack>
-          ))}
+          <Stack padding={3} borderWidth="1px" gap={5}>
+            {medications.map((medication) => (
+              <Medication medication={medication} />
+            ))}
+          </Stack>
         </Accordion.ItemBody>
       </Accordion.ItemContent>
     </Accordion.Item>

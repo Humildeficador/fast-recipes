@@ -15,8 +15,3 @@ export interface MedicationType {
   frequency?: string
   quantity?: string
 }
-
-export interface MedicationProps {
-  name: string
-  id: number
-}
