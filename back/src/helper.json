@@ -1,526 +1,2393 @@
 {
   "gotas": {
     "dipirona": {
-      "dosage": ["500mg/ml"],
-      "quantity_per_dose": ["peso x 0.4 gotas", "20 gotas", "40 gotas", "18 gotas"],
-      "frequency": ["6/6h", "4/4h"],
-      "packaging_type": ["frasco"],
-      "category": ["analgésico", "antipirético"]
+      "category": [
+        "analgesico",
+        "antipiretico"
+      ],
+      "frequency": [
+        "6/6h",
+        "4/4h"
+      ],
+      "frequency_unit": [
+        "horas",
+        "horas"
+      ],
+      "dosage": [
+        "500mg/ml"
+      ],
+      "quantity_per_dose": [
+        "peso x 0.4 gotas",
+        "20 gotas",
+        "40 gotas",
+        "18 gotas"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "ibuprofeno": {
-      "dosage": ["50mg/ml", "100mg/ml"],
-      "quantity_per_dose": ["1 gota/kg", "40 gotas"],
-      "frequency": ["8/8h"],
-      "duration": ["3 dias", "5 dias"],
-      "packaging_type": ["frasco"],
-      "category": ["anti-inflamatório", "analgésico"]
+      "category": [
+        "anti_inflamatorio",
+        "analgesico",
+        "antipiretico"
+      ],
+      "frequency": [
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "50mg/ml",
+        "100mg/ml"
+      ],
+      "quantity_per_dose": [
+        "1 gota/kg",
+        "40 gotas"
+      ],
+      "duration": [
+        "3 dias",
+        "5 dias"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "paracetamol": {
-      "dosage": ["200mg/ml"],
-      "quantity_per_dose": ["1 gota/kg"],
-      "frequency": ["6/6h"],
-      "packaging_type": ["frasco"],
-      "category": ["analgésico", "antipirético"]
+      "category": [
+        "analgesico",
+        "antipiretico"
+      ],
+      "frequency": [
+        "6/6h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "200mg/ml"
+      ],
+      "quantity_per_dose": [
+        "1 gota/kg"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "simeticona": {
-      "dosage": ["75mg/ml"],
-      "quantity_per_dose": ["5 gotas", "40 gotas"],
-      "frequency": ["8/8h"],
-      "packaging_type": ["frasco"],
-      "category": ["antigases"]
+      "category": [
+        "antigases",
+        "antiflatulento"
+      ],
+      "frequency": [
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "75mg/ml"
+      ],
+      "quantity_per_dose": [
+        "5 gotas",
+        "40 gotas"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
-    "dimenidrinato_piridoxina (dramin)": {
-      "dosage": ["25mg+5mg/ml"],
-      "quantity_per_dose": ["1 gota/kg", "40 gotas"],
-      "frequency": ["6/6h", "8/8h"],
-      "duration": ["5 dias"],
-      "packaging_type": ["frasco"],
-      "category": ["antiemético"]
+    "dimenidrinato_piridoxina_dramin": {
+      "category": [
+        "antiemetico",
+        "antivertiginoso"
+      ],
+      "frequency": [
+        "6/6h",
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas",
+        "horas"
+      ],
+      "dosage": [
+        "25mg+5mg/ml"
+      ],
+      "quantity_per_dose": [
+        "1 gota/kg",
+        "40 gotas"
+      ],
+      "duration": [
+        "5 dias"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "bromoprida": {
-      "dosage": ["4mg/ml"],
-      "quantity_per_dose": ["1 gota/kg", "40 gotas"],
-      "frequency": ["8/8h"],
-      "packaging_type": ["frasco"],
-      "category": ["antiemético"]
+      "category": [
+        "antiemetico",
+        "procinetico"
+      ],
+      "frequency": [
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "4mg/ml"
+      ],
+      "quantity_per_dose": [
+        "1 gota/kg",
+        "40 gotas"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "tramadol": {
-      "dosage": ["50mg/ml"],
-      "quantity_per_dose": ["conforme dor intensa"],
-      "frequency": ["6/6h"],
-      "packaging_type": ["frasco"],
-      "category": ["analgésico opioide"]
+      "category": [
+        "analgesico_opioide",
+        "analgesico"
+      ],
+      "frequency": [
+        "6/6h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "50mg/ml"
+      ],
+      "quantity_per_dose": [
+        "conforme dor intensa"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
-     "cerumin": {
-      "dosage": ["solução otológica"],
-      "quantity_per_dose": ["5 gotas em cada ouvido"],
-      "frequency": ["8/8h"],
-      "packaging_type": ["frasco"],
-      "category": ["ceruminolítico"]
+    "escopolamina_buscopan": {
+      "category": [
+        "antiespasmodico"
+      ],
+      "frequency": [
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "10mg/ml"
+      ],
+      "quantity_per_dose": [
+        "40 gotas"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
+    },
+    "cerumin": {
+      "category": [
+        "ceruminolitico"
+      ],
+      "frequency": [
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "solução otológica"
+      ],
+      "quantity_per_dose": [
+        "5 gotas em cada ouvido"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "otosporin": {
-      "dosage": ["solução otológica"],
-      "quantity_per_dose": ["2 gotas"],
-      "frequency": ["8/8h"],
-      "duration": ["7 dias"],
-      "packaging_type": ["frasco"],
-      "category": ["antibiótico otológico"]
+      "category": [
+        "antibiotico_otologico",
+        "corticoide_otologico",
+        "analgesico_otologico"
+      ],
+      "frequency": [
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "solução otológica"
+      ],
+      "quantity_per_dose": [
+        "2 gotas"
+      ],
+      "duration": [
+        "7 dias"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     }
   },
   "comprimido": {
     "dipirona": {
-      "dosage": ["500mg", "1g"],
-      "quantity_per_dose": ["1 comprimido", "2 comprimidos"],
-      "frequency": ["6/6h", "8/8h"],
-      "packaging_type": ["caixa", "cartela"],
-      "category": ["analgésico"]
+      "category": [
+        "analgesico",
+        "antipiretico"
+      ],
+      "frequency": [
+        "6/6h",
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas",
+        "horas"
+      ],
+      "dosage": [
+        "500mg",
+        "1g"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido",
+        "2 comprimidos"
+      ],
+      "packaging_type": [
+        "caixa",
+        "cartela"
+      ]
     },
     "ibuprofeno": {
-      "dosage": ["300mg", "600mg"],
-      "quantity_per_dose": ["1 comprimido", "2 comprimidos"],
-      "frequency": ["8/8h"],
-      "duration": ["5 dias"],
-      "packaging_type": ["caixa", "cartela"],
-      "category": ["anti-inflamatório"]
+      "category": [
+        "anti_inflamatorio",
+        "analgesico",
+        "antipiretico"
+      ],
+      "frequency": [
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "300mg",
+        "600mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido",
+        "2 comprimidos"
+      ],
+      "duration": [
+        "5 dias"
+      ],
+      "packaging_type": [
+        "caixa",
+        "cartela"
+      ]
     },
     "paracetamol": {
-      "dosage": ["500mg", "750mg"],
-      "quantity_per_dose": ["1 comprimido"],
-      "frequency": ["6/6h"],
-      "packaging_type": ["caixa"],
-      "category": ["analgésico"]
+      "category": [
+        "analgesico",
+        "antipiretico"
+      ],
+      "frequency": [
+        "6/6h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "500mg",
+        "750mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido"
+      ],
+      "packaging_type": [
+        "caixa"
+      ]
     },
     "diclofenaco": {
-      "dosage": ["50mg"],
-      "quantity_per_dose": ["1 comprimido"],
-      "frequency": ["8/8h"],
-      "duration": ["5 dias"],
-      "packaging_type": ["cartela", "caixa"],
-      "category": ["anti-inflamatório"]
+      "category": [
+        "anti_inflamatorio",
+        "analgesico"
+      ],
+      "frequency": [
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "50mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido"
+      ],
+      "duration": [
+        "5 dias"
+      ],
+      "packaging_type": [
+        "cartela",
+        "caixa"
+      ]
     },
     "azitromicina": {
-      "dosage": ["500mg"],
-      "quantity_per_dose": ["1 comprimido"],
-      "frequency": ["1x ao dia"],
-      "duration": ["5 dias"],
-      "packaging_type": ["caixa"],
-      "category": ["antibiótico"]
+      "category": [
+        "antibiotico"
+      ],
+      "frequency": [
+        "1x ao dia"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "500mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido"
+      ],
+      "duration": [
+        "5 dias"
+      ],
+      "packaging_type": [
+        "caixa"
+      ]
     },
     "ciprofloxacino": {
-      "dosage": ["500mg"],
-      "quantity_per_dose": ["1 comprimido"],
-      "frequency": ["12/12h"],
-      "duration": ["7 dias"],
-      "packaging_type": ["caixa"],
-      "category": ["antibiótico"]
+      "category": [
+        "antibiotico"
+      ],
+      "frequency": [
+        "12/12h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "500mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido"
+      ],
+      "duration": [
+        "7 dias"
+      ],
+      "packaging_type": [
+        "caixa"
+      ]
     },
     "cefalexina": {
-      "dosage": ["500mg"],
-      "quantity_per_dose": ["1 comprimido"],
-      "frequency": ["6/6h"],
-      "duration": ["7 dias"],
-      "packaging_type": ["caixa"],
-      "category": ["antibiótico"]
+      "category": [
+        "antibiotico"
+      ],
+      "frequency": [
+        "6/6h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "500mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido"
+      ],
+      "duration": [
+        "7 dias"
+      ],
+      "packaging_type": [
+        "caixa"
+      ]
     },
     "prednisona": {
-      "dosage": ["20mg"],
-      "quantity_per_dose": ["1 comprimido", "2 comprimidos"],
-      "frequency": ["1x ao dia (pela manhã)"],
-      "duration": ["3 dias", "5 dias"],
-      "packaging_type": ["caixa", "cartela"],
-      "category": ["corticoide"]
+      "category": [
+        "corticoide",
+        "anti_inflamatorio"
+      ],
+      "frequency": [
+        "1x ao dia (pela manhã)"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "20mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido",
+        "2 comprimidos"
+      ],
+      "duration": [
+        "3 dias",
+        "5 dias"
+      ],
+      "packaging_type": [
+        "caixa",
+        "cartela"
+      ]
     },
     "loratadina": {
-      "dosage": ["10mg"],
-      "quantity_per_dose": ["1 comprimido"],
-      "frequency": ["1x ao dia (à noite)"],
-      "duration": ["5 dias", "7 dias"],
-      "packaging_type": ["caixa", "cartela"],
-      "category": ["anti-alérgico"]
+      "category": [
+        "anti_alergico",
+        "anti_histaminico"
+      ],
+      "frequency": [
+        "1x ao dia (à noite)"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "10mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido"
+      ],
+      "duration": [
+        "5 dias",
+        "7 dias"
+      ],
+      "packaging_type": [
+        "caixa",
+        "cartela"
+      ]
     },
-     "metoclopramida": {
-      "dosage": ["10mg"],
-      "quantity_per_dose": ["1 comprimido"],
-      "frequency": ["8/8h"],
-      "packaging_type": ["caixa", "cartela"],
-      "category": ["antiemético"]
+    "ebastina": {
+      "category": [
+        "anti_alergico",
+        "anti_histaminico"
+      ],
+      "frequency": [
+        "12/12h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "20mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido"
+      ],
+      "duration": [
+        "5 dias"
+      ],
+      "packaging_type": [
+        "caixa"
+      ]
+    },
+    "metoclopramida": {
+      "category": [
+        "antiemetico",
+        "procinetico"
+      ],
+      "frequency": [
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "10mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido"
+      ],
+      "packaging_type": [
+        "caixa",
+        "cartela"
+      ]
     },
     "ondansetrona": {
-      "dosage": ["8mg"],
-      "quantity_per_dose": ["1 comprimido"],
-      "frequency": ["8/8h"],
-      "packaging_type": ["caixa"],
-      "category": ["antiemético"]
+      "category": [
+        "antiemetico"
+      ],
+      "frequency": [
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "8mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido"
+      ],
+      "packaging_type": [
+        "caixa"
+      ]
     },
-    "ciclobenzaprina (miosan)": {
-      "dosage": ["5mg", "10mg"],
-      "quantity_per_dose": ["1 comprimido"],
-      "frequency": ["1x ao dia (à noite)", "3x ao dia"],
-      "duration": ["5 dias"],
-      "packaging_type": ["caixa"],
-      "category": ["relaxante muscular"]
+    "ciclobenzaprina_miosan": {
+      "category": [
+        "relaxante_muscular"
+      ],
+      "frequency": [
+        "1x ao dia (à noite)",
+        "3x ao dia"
+      ],
+      "frequency_unit": [
+        "dias",
+        "dias"
+      ],
+      "dosage": [
+        "5mg",
+        "10mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido"
+      ],
+      "duration": [
+        "5 dias"
+      ],
+      "packaging_type": [
+        "caixa"
+      ]
     },
     "ivermectina": {
-      "dosage": ["6mg"],
-      "quantity_per_dose": ["variável conforme peso (0.2mg/kg)"],
-      "frequency": ["dose única (repetir em 7 dias)"],
-      "packaging_type": ["comprimido"],
-      "category": ["antiparasitário"]
+      "category": [
+        "antiparasitario"
+      ],
+      "frequency": [
+        "dose única (repetir em 7 dias)"
+      ],
+      "frequency_unit": [
+        "dose_unica"
+      ],
+      "dosage": [
+        "6mg"
+      ],
+      "quantity_per_dose": [
+        "variável conforme peso (0.2mg/kg)"
+      ],
+      "packaging_type": [
+        "comprimido"
+      ]
     },
     "sulfametoxazol_trimetropina": {
-      "dosage": ["400+80mg", "800+160mg"],
-      "quantity_per_dose": ["1 comprimido"],
-      "frequency": ["12/12h", "8/8h"],
-      "duration": ["7 dias"],
-      "packaging_type": ["caixa"],
-      "category": ["antibiótico"]
+      "category": [
+        "antibiotico"
+      ],
+      "frequency": [
+        "12/12h",
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas",
+        "horas"
+      ],
+      "dosage": [
+        "400+80mg",
+        "800+160mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido"
+      ],
+      "duration": [
+        "7 dias"
+      ],
+      "packaging_type": [
+        "caixa"
+      ]
     },
     "naproxeno": {
-       "dosage": ["500mg"],
-       "quantity_per_dose": ["1 comprimido"],
-       "frequency": ["12/12h"],
-       "duration": ["5 dias"],
-       "packaging_type": ["caixa"],
-       "category": ["anti-inflamatório"]
+      "category": [
+        "anti_inflamatorio",
+        "analgesico",
+        "antipiretico"
+      ],
+      "frequency": [
+        "12/12h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "500mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido"
+      ],
+      "duration": [
+        "5 dias"
+      ],
+      "packaging_type": [
+        "caixa"
+      ]
     },
     "sumatriptano": {
-        "dosage": ["50mg"],
-        "quantity_per_dose": ["1 comprimido"],
-        "frequency": ["12/12h (se necessário)"],
-        "duration": ["1 dia"],
-        "packaging_type": ["caixa"],
-        "category": ["antienxaquecoso"]
+      "category": [
+        "antienxaquecoso",
+        "vasoconstritor"
+      ],
+      "frequency": [
+        "12/12h (se necessário)"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "50mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido"
+      ],
+      "duration": [
+        "1 dia"
+      ],
+      "packaging_type": [
+        "caixa"
+      ]
     },
-    "racecadotrila (tiorfan)": {
-         "dosage": ["100mg"],
-         "quantity_per_dose": ["1 comprimido"],
-         "frequency": ["8/8h"],
-         "duration": ["até cessar diarreia (max 7 dias)"],
-         "packaging_type": ["caixa"],
-         "category": ["antidiarreico"]
+    "racecadotrila_tiorfan": {
+      "category": [
+        "antidiarreico"
+      ],
+      "frequency": [
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "100mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido"
+      ],
+      "duration": [
+        "até cessar diarreia (max 7 dias)"
+      ],
+      "packaging_type": [
+        "caixa"
+      ]
     },
     "omeprazol": {
-        "dosage": ["20mg"],
-        "quantity_per_dose": ["1 comprimido"],
-        "frequency": ["1x ao dia (jejum)"],
-        "duration": ["10 dias", "30 dias"],
-        "packaging_type": ["caixa"],
-        "category": ["inibidor de bomba de prótons"]
+      "category": [
+        "inibidor_de_bomba_de_protons",
+        "antiulceroso"
+      ],
+      "frequency": [
+        "1x ao dia (jejum)"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "20mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido"
+      ],
+      "duration": [
+        "10 dias",
+        "30 dias"
+      ],
+      "packaging_type": [
+        "caixa"
+      ]
     },
-    "tylex (paracetamol + codeina)": {
-        "dosage": ["500mg + 7.5mg", "500mg + 30mg"],
-        "quantity_per_dose": ["1 comprimido"],
-        "frequency": ["4/4h"],
-        "packaging_type": ["caixa"],
-        "category": ["analgésico opioide"]
+    "tylex_paracetamol_codeina": {
+      "category": [
+        "analgesico_opioide",
+        "analgesico"
+      ],
+      "frequency": [
+        "4/4h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "500mg + 7.5mg",
+        "500mg + 30mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido"
+      ],
+      "packaging_type": [
+        "caixa"
+      ]
+    },
+    "escopolamina_buscopan": {
+      "category": [
+        "antiespasmodico"
+      ],
+      "frequency": [
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "10mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido"
+      ],
+      "packaging_type": [
+        "caixa"
+      ]
+    },
+    "nitrofurantoina": {
+      "category": [
+        "antibiotico",
+        "antisseptico_urinario"
+      ],
+      "frequency": [
+        "6/6h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "100mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido"
+      ],
+      "duration": [
+        "7 dias"
+      ],
+      "packaging_type": [
+        "caixa"
+      ]
+    },
+    "tansulosina": {
+      "category": [
+        "bloqueador_alfa_adrenergico"
+      ],
+      "frequency": [
+        "1x ao dia (à noite)"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "0.4mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido"
+      ],
+      "duration": [
+        "30 dias"
+      ],
+      "packaging_type": [
+        "caixa"
+      ]
+    },
+    "etoricoxibe_ecoxe": {
+      "category": [
+        "anti_inflamatorio",
+        "analgesico"
+      ],
+      "frequency": [
+        "1x ao dia"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "90mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido"
+      ],
+      "duration": [
+        "5 dias"
+      ],
+      "packaging_type": [
+        "caixa"
+      ]
+    },
+    "flunarizina": {
+      "category": [
+        "antivertiginoso",
+        "bloqueador_canal_calcio"
+      ],
+      "frequency": [
+        "1x ao dia (à noite)"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "10mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido"
+      ],
+      "duration": [
+        "2 semanas"
+      ],
+      "packaging_type": [
+        "caixa"
+      ]
+    },
+    "valeriana_officinalis": {
+      "category": [
+        "fitoterapico",
+        "ansiolitico"
+      ],
+      "frequency": [
+        "12/12h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "0.8mg a 3.5mg"
+      ],
+      "quantity_per_dose": [
+        "1 comprimido"
+      ],
+      "duration": [
+        "30 dias"
+      ],
+      "packaging_type": [
+        "caixa"
+      ]
     }
   },
   "solucao_oral_xarope": {
     "amoxicilina": {
-      "dosage": ["250mg/5ml", "400mg/5ml"],
-      "quantity_per_dose": ["peso/3 ml", "peso/2 ml"],
-      "frequency": ["8/8h", "12/12h"],
-      "duration": ["7 dias", "10 dias"],
-      "packaging_type": ["frasco"],
-      "category": ["antibiótico"]
+      "category": [
+        "antibiotico"
+      ],
+      "frequency": [
+        "8/8h",
+        "12/12h"
+      ],
+      "frequency_unit": [
+        "horas",
+        "horas"
+      ],
+      "dosage": [
+        "250mg/5ml",
+        "400mg/5ml"
+      ],
+      "quantity_per_dose": [
+        "peso/3 ml",
+        "peso/2 ml"
+      ],
+      "duration": [
+        "7 dias",
+        "10 dias"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "amoxicilina_clavulanato": {
-      "dosage": ["250mg+62,5mg/5ml"],
-      "quantity_per_dose": ["peso/3 ml", "peso x 0.3"],
-      "frequency": ["8/8h"],
-      "duration": ["10 dias"],
-      "packaging_type": ["frasco"],
-      "category": ["antibiótico"]
+      "category": [
+        "antibiotico"
+      ],
+      "frequency": [
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "250mg+62,5mg/5ml"
+      ],
+      "quantity_per_dose": [
+        "peso/3 ml",
+        "peso x 0.3"
+      ],
+      "duration": [
+        "10 dias"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "azitromicina": {
-      "dosage": ["200mg/5ml"],
-      "quantity_per_dose": ["peso/4 ml"],
-      "frequency": ["1x ao dia"],
-      "duration": ["5 dias"],
-      "packaging_type": ["frasco"],
-      "category": ["antibiótico"]
+      "category": [
+        "antibiotico"
+      ],
+      "frequency": [
+        "1x ao dia"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "200mg/5ml"
+      ],
+      "quantity_per_dose": [
+        "peso/4 ml"
+      ],
+      "duration": [
+        "5 dias"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "cefalexina": {
-      "dosage": ["250mg/5ml"],
-      "quantity_per_dose": ["variável"],
-      "frequency": ["6/6h"],
-      "duration": ["7-10 dias"],
-      "packaging_type": ["frasco"],
-      "category": ["antibiótico"]
+      "category": [
+        "antibiotico"
+      ],
+      "frequency": [
+        "6/6h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "250mg/5ml"
+      ],
+      "quantity_per_dose": [
+        "variável"
+      ],
+      "duration": [
+        "7-10 dias"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "prednisolona": {
-      "dosage": ["3mg/ml"],
-      "quantity_per_dose": ["peso/3 ml", "1mg/kg/dia"],
-      "frequency": ["1x ao dia"],
-      "duration": ["5 dias"],
-      "packaging_type": ["frasco"],
-      "category": ["corticoide"]
+      "category": [
+        "corticoide",
+        "anti_inflamatorio"
+      ],
+      "frequency": [
+        "1x ao dia"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "3mg/ml"
+      ],
+      "quantity_per_dose": [
+        "peso/3 ml",
+        "1mg/kg/dia"
+      ],
+      "duration": [
+        "5 dias"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "loratadina": {
-      "dosage": ["1mg/ml"],
-      "quantity_per_dose": ["5ml", "10ml"],
-      "frequency": ["1x ao dia"],
-      "duration": ["5 dias", "7 dias"],
-      "packaging_type": ["frasco"],
-      "category": ["anti-alérgico"]
+      "category": [
+        "anti_alergico",
+        "anti_histaminico"
+      ],
+      "frequency": [
+        "1x ao dia"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "1mg/ml"
+      ],
+      "quantity_per_dose": [
+        "5ml",
+        "10ml"
+      ],
+      "duration": [
+        "5 dias",
+        "7 dias"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "dexclorfeniramina": {
-      "dosage": ["2mg/5ml"],
-      "quantity_per_dose": ["5ml"],
-      "frequency": ["8/8h"],
-      "duration": ["5 dias"],
-      "packaging_type": ["frasco"],
-      "category": ["anti-alérgico"]
+      "category": [
+        "anti_alergico",
+        "anti_histaminico"
+      ],
+      "frequency": [
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "2mg/5ml"
+      ],
+      "quantity_per_dose": [
+        "5ml"
+      ],
+      "duration": [
+        "5 dias"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "hidroxizina": {
-      "dosage": ["2mg/ml", "25mg/ml"],
-      "quantity_per_dose": ["peso/3 ml"],
-      "frequency": ["8/8h"],
-      "duration": ["3 dias", "5 dias"],
-      "packaging_type": ["frasco"],
-      "category": ["anti-alérgico"]
+      "category": [
+        "anti_alergico",
+        "anti_histaminico",
+        "antipruriginoso"
+      ],
+      "frequency": [
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "2mg/ml",
+        "25mg/ml"
+      ],
+      "quantity_per_dose": [
+        "peso/3 ml"
+      ],
+      "duration": [
+        "3 dias",
+        "5 dias"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
+    },
+    "desloratadina": {
+      "category": [
+        "anti_alergico",
+        "anti_histaminico"
+      ],
+      "frequency": [
+        "1x ao dia"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "0.5mg/ml"
+      ],
+      "quantity_per_dose": [
+        "2ml",
+        "2.5ml",
+        "5ml",
+        "10ml"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
+    },
+    "fexofenadina_allegra": {
+      "category": [
+        "anti_alergico",
+        "anti_histaminico"
+      ],
+      "frequency": [
+        "12/12h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "variável"
+      ],
+      "quantity_per_dose": [
+        "2.5ml",
+        "5ml"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "lactulose": {
-      "dosage": ["667mg/ml"],
-      "quantity_per_dose": ["5-10ml", "15ml"],
-      "frequency": ["12/12h"],
-      "packaging_type": ["frasco"],
-      "category": ["laxante"]
+      "category": [
+        "laxante"
+      ],
+      "frequency": [
+        "12/12h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "667mg/ml"
+      ],
+      "quantity_per_dose": [
+        "5-10ml",
+        "15ml"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
+    },
+    "oleo_mineral": {
+      "category": [
+        "laxante"
+      ],
+      "frequency": [
+        "12/12h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "oleo"
+      ],
+      "quantity_per_dose": [
+        "1 colher"
+      ],
+      "duration": [
+        "30 dias"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "acebrofilina": {
-        "dosage": ["5mg/ml"],
-        "quantity_per_dose": ["variável"],
-        "frequency": ["12/12h"],
-        "packaging_type": ["frasco"],
-        "category": ["broncodilatador/expectorante"]
+      "category": [
+        "broncodilatador",
+        "expectorante"
+      ],
+      "frequency": [
+        "12/12h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "5mg/ml"
+      ],
+      "quantity_per_dose": [
+        "variável"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "ambroxol": {
-        "dosage": ["15mg/5ml", "3mg/ml"],
-        "quantity_per_dose": ["2.5ml", "5ml"],
-        "frequency": ["8/8h", "12/12h"],
-        "duration": ["5 dias"],
-        "packaging_type": ["frasco"],
-        "category": ["expectorante"]
+      "category": [
+        "expectorante",
+        "mucolitico"
+      ],
+      "frequency": [
+        "8/8h",
+        "12/12h"
+      ],
+      "frequency_unit": [
+        "horas",
+        "horas"
+      ],
+      "dosage": [
+        "15mg/5ml",
+        "3mg/ml"
+      ],
+      "quantity_per_dose": [
+        "2.5ml",
+        "5ml"
+      ],
+      "duration": [
+        "5 dias"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "acetilcisteina": {
-        "dosage": ["20mg/ml"],
-        "quantity_per_dose": ["5ml"],
-        "frequency": ["12/12h", "8/8h"],
-        "duration": ["5 dias"],
-        "packaging_type": ["frasco"],
-        "category": ["expectorante"]
+      "category": [
+        "expectorante",
+        "mucolitico"
+      ],
+      "frequency": [
+        "12/12h",
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas",
+        "horas"
+      ],
+      "dosage": [
+        "20mg/ml"
+      ],
+      "quantity_per_dose": [
+        "5ml"
+      ],
+      "duration": [
+        "5 dias"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
+    },
+    "levodropropizina": {
+      "category": [
+        "antitussigeno"
+      ],
+      "frequency": [
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "30mg/5ml"
+      ],
+      "quantity_per_dose": [
+        "peso/6 ml",
+        "3ml",
+        "5ml",
+        "10ml"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "sulfametoxazol_trimetropina_susp": {
-        "dosage": ["200+40mg/5ml"],
-        "quantity_per_dose": ["peso/2 ml"],
-        "frequency": ["12/12h"],
-        "duration": ["7 dias"],
-        "packaging_type": ["frasco"],
-        "category": ["antibiótico"]
+      "category": [
+        "antibiotico"
+      ],
+      "frequency": [
+        "12/12h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "200+40mg/5ml"
+      ],
+      "quantity_per_dose": [
+        "peso/2 ml"
+      ],
+      "duration": [
+        "7 dias"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
+    },
+    "claritromicina": {
+      "category": [
+        "antibiotico"
+      ],
+      "frequency": [
+        "12/12h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "125mg/5ml",
+        "250mg/5ml"
+      ],
+      "quantity_per_dose": [
+        "peso x 0.15",
+        "peso x 0.3"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "albendazol": {
-        "dosage": ["40mg/ml"],
-        "quantity_per_dose": ["10ml"],
-        "frequency": ["1x ao dia"],
-        "duration": ["5 dias"],
-        "packaging_type": ["frasco"],
-        "category": ["antiparasitário"]
+      "category": [
+        "antiparasitario",
+        "antihelmintico"
+      ],
+      "frequency": [
+        "1x ao dia"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "40mg/ml"
+      ],
+      "quantity_per_dose": [
+        "10ml"
+      ],
+      "duration": [
+        "5 dias"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
-     "enterogermina": {
-        "dosage": ["solução oral"],
-        "quantity_per_dose": ["1 flaconete"],
-        "frequency": ["12/12h"],
-        "duration": ["5 dias"],
-        "packaging_type": ["frasco/flaconete"],
-        "category": ["probiótico"]
+    "enterogermina": {
+      "category": [
+        "probiotico"
+      ],
+      "frequency": [
+        "12/12h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "solução oral"
+      ],
+      "quantity_per_dose": [
+        "1 flaconete"
+      ],
+      "duration": [
+        "5 dias"
+      ],
+      "packaging_type": [
+        "frasco_flaconete"
+      ]
+    },
+    "florax": {
+      "category": [
+        "probiotico"
+      ],
+      "frequency": [
+        "12/12h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "flaconete"
+      ],
+      "quantity_per_dose": [
+        "1 flaconete"
+      ],
+      "duration": [
+        "5 dias"
+      ],
+      "packaging_type": [
+        "frasco_flaconete"
+      ]
     },
     "sulfato_de_zinco": {
-        "dosage": ["4mg/ml", "20mg/ml"],
-        "quantity_per_dose": ["2.5ml", "5ml"],
-        "frequency": ["1x ao dia"],
-        "duration": ["10 dias"],
-        "packaging_type": ["frasco"],
-        "category": ["suplemento mineral"]
+      "category": [
+        "suplemento_mineral"
+      ],
+      "frequency": [
+        "1x ao dia"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "4mg/ml",
+        "20mg/ml"
+      ],
+      "quantity_per_dose": [
+        "2.5ml",
+        "5ml"
+      ],
+      "duration": [
+        "10 dias"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "hedera_helix": {
-        "dosage": ["xarope"],
-        "quantity_per_dose": ["2.5ml", "5ml", "10ml"],
-        "frequency": ["8/8h"],
-        "packaging_type": ["frasco"],
-        "category": ["fitoterápico/expectorante"]
+      "category": [
+        "fitoterapico",
+        "expectorante"
+      ],
+      "frequency": [
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "xarope"
+      ],
+      "quantity_per_dose": [
+        "2.5ml",
+        "5ml",
+        "10ml"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
+    },
+    "vick_44e": {
+      "category": [
+        "expectorante",
+        "antitussigeno"
+      ],
+      "frequency": [
+        "4/4h a 6/6h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "xarope"
+      ],
+      "quantity_per_dose": [
+        "15ml"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
+    },
+    "hidroxido_de_aluminio": {
+      "category": [
+        "antiacido"
+      ],
+      "frequency": [
+        "após as refeições"
+      ],
+      "frequency_unit": [
+        "evento"
+      ],
+      "dosage": [
+        "suspensão"
+      ],
+      "quantity_per_dose": [
+        "10ml"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
+    },
+    "nistatina": {
+      "category": [
+        "antifungico"
+      ],
+      "frequency": [
+        "6/6h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "solução oral"
+      ],
+      "quantity_per_dose": [
+        "1ml",
+        "2ml",
+        "3ml",
+        "5ml"
+      ],
+      "duration": [
+        "5-14 dias"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     }
   },
   "topico": {
     "mupirocina": {
-      "dosage": ["2%", "20mg/g"],
-      "quantity_per_dose": ["fina camada"],
-      "frequency": ["2x ao dia", "3x ao dia"],
-      "duration": ["5-14 dias", "10 dias"],
-      "packaging_type": ["tubo"],
-      "category": ["antibiótico tópico"]
+      "category": [
+        "antibiotico_topico"
+      ],
+      "frequency": [
+        "2x ao dia",
+        "3x ao dia",
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "dias",
+        "dias",
+        "horas"
+      ],
+      "dosage": [
+        "2%",
+        "20mg/g"
+      ],
+      "quantity_per_dose": [
+        "fina camada"
+      ],
+      "duration": [
+        "5-14 dias",
+        "10 dias"
+      ],
+      "packaging_type": [
+        "tubo"
+      ]
     },
     "neomicina_bacitracina": {
-       "dosage": ["pomada"],
-       "quantity_per_dose": ["fina camada"],
-       "frequency": ["8/8h", "3x ao dia"],
-       "duration": ["10 dias", "14 dias"],
-       "packaging_type": ["tubo"],
-       "category": ["antibiótico tópico"]
+      "category": [
+        "antibiotico_topico"
+      ],
+      "frequency": [
+        "8/8h",
+        "3x ao dia"
+      ],
+      "frequency_unit": [
+        "horas",
+        "dias"
+      ],
+      "dosage": [
+        "pomada"
+      ],
+      "quantity_per_dose": [
+        "fina camada"
+      ],
+      "duration": [
+        "10 dias",
+        "14 dias"
+      ],
+      "packaging_type": [
+        "tubo"
+      ]
+    },
+    "nebacetin": {
+      "category": [
+        "antibiotico_topico"
+      ],
+      "frequency": [
+        "3x ao dia"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "pomada"
+      ],
+      "quantity_per_dose": [
+        "fina camada"
+      ],
+      "duration": [
+        "7 dias"
+      ],
+      "packaging_type": [
+        "tubo"
+      ]
     },
     "cetoconazol": {
-      "dosage": ["2% creme"],
-      "quantity_per_dose": ["fina camada"],
-      "frequency": ["12/12h"],
-      "duration": ["2-4 semanas"],
-      "packaging_type": ["tubo"],
-      "category": ["antifúngico tópico"]
+      "category": [
+        "antifungico_topico"
+      ],
+      "frequency": [
+        "12/12h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "2% creme"
+      ],
+      "quantity_per_dose": [
+        "fina camada"
+      ],
+      "duration": [
+        "2-4 semanas"
+      ],
+      "packaging_type": [
+        "tubo"
+      ]
+    },
+    "sulfeto_de_selenio": {
+      "category": [
+        "antifungico_topico",
+        "antiseborreico"
+      ],
+      "frequency": [
+        "1x ao dia"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "2.5% shampoo"
+      ],
+      "quantity_per_dose": [
+        "aplicar no couro cabeludo"
+      ],
+      "duration": [
+        "4 semanas"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "permetrina": {
-      "dosage": ["1% (capilar)", "5% (loção corporal)"],
-      "quantity_per_dose": ["aplicar no corpo todo/cabelo"],
-      "frequency": ["1x à noite (repetir em 7 dias)"],
-      "duration": ["3 noites"],
-      "packaging_type": ["frasco"],
-      "category": ["escabicida/pediculicida"]
+      "category": [
+        "escabicida",
+        "pediculicida"
+      ],
+      "frequency": [
+        "1x à noite (repetir em 7 dias)"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "1% (capilar)",
+        "5% (loção corporal)"
+      ],
+      "quantity_per_dose": [
+        "aplicar no corpo todo/cabelo"
+      ],
+      "duration": [
+        "3 noites"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
+    },
+    "enxofre_precipitado": {
+      "category": [
+        "escabicida",
+        "antisseptico_topico"
+      ],
+      "frequency": [
+        "1x ao dia à noite"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "2-6% creme/loção"
+      ],
+      "quantity_per_dose": [
+        "aplicar na pele"
+      ],
+      "duration": [
+        "3 dias"
+      ],
+      "packaging_type": [
+        "pote_tubo"
+      ]
     },
     "dexametasona": {
-        "dosage": ["1mg/g"],
-        "quantity_per_dose": ["fina camada"],
-        "frequency": ["2x ao dia"],
-        "duration": ["5 dias", "7 dias"],
-        "packaging_type": ["tubo"],
-        "category": ["corticoide tópico"]
+      "category": [
+        "corticoide_topico",
+        "anti_inflamatorio_topico"
+      ],
+      "frequency": [
+        "2x ao dia"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "1mg/g"
+      ],
+      "quantity_per_dose": [
+        "fina camada"
+      ],
+      "duration": [
+        "5 dias",
+        "7 dias"
+      ],
+      "packaging_type": [
+        "tubo"
+      ]
     },
     "hidrocortisona": {
-        "dosage": ["1%"],
-        "quantity_per_dose": ["fina camada"],
-        "frequency": ["12/12h"],
-        "duration": ["7 dias", "10 dias"],
-        "packaging_type": ["tubo"],
-        "category": ["corticoide tópico"]
+      "category": [
+        "corticoide_topico",
+        "anti_inflamatorio_topico"
+      ],
+      "frequency": [
+        "12/12h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "1%"
+      ],
+      "quantity_per_dose": [
+        "fina camada"
+      ],
+      "duration": [
+        "7 dias",
+        "10 dias"
+      ],
+      "packaging_type": [
+        "tubo"
+      ]
+    },
+    "trok_n": {
+      "category": [
+        "corticoide_topico",
+        "antibiotico_topico",
+        "antifungico_topico"
+      ],
+      "frequency": [
+        "2x ao dia"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "pomada"
+      ],
+      "quantity_per_dose": [
+        "fina camada"
+      ],
+      "duration": [
+        "10 dias"
+      ],
+      "packaging_type": [
+        "tubo"
+      ]
     },
     "nistatina_oxido_zinco": {
-        "dosage": ["pomada"],
-        "quantity_per_dose": ["camada"],
-        "frequency": ["a cada troca de fralda", "12/12h"],
-        "duration": ["5-10 dias"],
-        "packaging_type": ["tubo"],
-        "category": ["antifúngico/barreira"]
+      "category": [
+        "antifungico_topico",
+        "protetor_de_pele"
+      ],
+      "frequency": [
+        "a cada troca de fralda",
+        "12/12h"
+      ],
+      "frequency_unit": [
+        "evento",
+        "horas"
+      ],
+      "dosage": [
+        "pomada"
+      ],
+      "quantity_per_dose": [
+        "camada"
+      ],
+      "duration": [
+        "5-10 dias"
+      ],
+      "packaging_type": [
+        "tubo"
+      ]
     },
-     "betametasona_hialuronidase": {
-        "dosage": ["pomada"],
-        "quantity_per_dose": ["fina camada"],
-        "frequency": ["12/12h"],
-        "duration": ["3 semanas"],
-        "packaging_type": ["tubo"],
-        "category": ["corticoide tópico"]
+    "betametasona_hialuronidase": {
+      "category": [
+        "corticoide_topico"
+      ],
+      "frequency": [
+        "12/12h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "pomada"
+      ],
+      "quantity_per_dose": [
+        "fina camada"
+      ],
+      "duration": [
+        "3 semanas"
+      ],
+      "packaging_type": [
+        "tubo"
+      ]
     },
     "triancinolona_acetonida": {
-        "dosage": ["1mg/g"],
-        "quantity_per_dose": ["fina camada"],
-        "frequency": ["8/8h"],
-        "duration": ["7 dias"],
-        "packaging_type": ["tubo"],
-        "category": ["corticoide tópico (oral)"]
+      "category": [
+        "corticoide_topico_oral"
+      ],
+      "frequency": [
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "1mg/g"
+      ],
+      "quantity_per_dose": [
+        "fina camada"
+      ],
+      "duration": [
+        "7 dias"
+      ],
+      "packaging_type": [
+        "tubo"
+      ]
+    },
+    "creme_de_ureia": {
+      "category": [
+        "hidratante",
+        "queratolitico"
+      ],
+      "frequency": [
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "0.2g/g"
+      ],
+      "quantity_per_dose": [
+        "aplicar sobre a pele"
+      ],
+      "packaging_type": [
+        "tubo"
+      ]
+    },
+    "age_acidos_graxos": {
+      "category": [
+        "cicatrizante",
+        "hidratante"
+      ],
+      "frequency": [
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "tópico"
+      ],
+      "quantity_per_dose": [
+        "aplicar na região"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
+    },
+    "flogoral_spray": {
+      "category": [
+        "anti_inflamatorio_topico",
+        "anestesico_local"
+      ],
+      "frequency": [
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "spray"
+      ],
+      "quantity_per_dose": [
+        "aplicar na garganta"
+      ],
+      "duration": [
+        "7 dias"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
+    },
+    "permanganato_de_potassio": {
+      "category": [
+        "antisseptico_topico"
+      ],
+      "frequency": [
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "100mg"
+      ],
+      "quantity_per_dose": [
+        "diluir 1 cp em 2L água para banho"
+      ],
+      "duration": [
+        "5 dias"
+      ],
+      "packaging_type": [
+        "comprimido_para_solucao"
+      ]
     }
   },
   "nasal_inalatorio": {
     "soro_fisiologico": {
-      "dosage": ["0.9%"],
-      "quantity_per_dose": ["5ml", "10ml"],
-      "frequency": ["3x ao dia", "4-5x ao dia", "3/3h"],
-      "packaging_type": ["frasco"],
-      "category": ["solução salina"]
+      "category": [
+        "solucao_salina",
+        "fluidificante"
+      ],
+      "frequency": [
+        "3x ao dia",
+        "4-5x ao dia",
+        "3/3h"
+      ],
+      "frequency_unit": [
+        "dias",
+        "dias",
+        "horas"
+      ],
+      "dosage": [
+        "0.9%"
+      ],
+      "quantity_per_dose": [
+        "5ml",
+        "10ml"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "budesonida": {
-      "dosage": ["50mcg", "200mcg"],
-      "quantity_per_dose": ["2 puffs"],
-      "frequency": ["12/12h"],
-      "duration": ["10 dias"],
-      "packaging_type": ["spray/frasco"],
-      "category": ["corticoide nasal/inalatório"]
+      "category": [
+        "corticoide_nasal",
+        "corticoide_inalatorio"
+      ],
+      "frequency": [
+        "12/12h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "50mcg (nasal)",
+        "200mcg (inalatório)"
+      ],
+      "quantity_per_dose": [
+        "2 puffs"
+      ],
+      "duration": [
+        "10 dias"
+      ],
+      "packaging_type": [
+        "spray_frasco"
+      ]
     },
     "beclometasona": {
-      "dosage": ["50mcg"],
-      "quantity_per_dose": ["1 jato", "2 jatos", "3 puffs"],
-      "frequency": ["12/12h"],
-      "duration": ["10 dias"],
-      "packaging_type": ["spray/frasco"],
-      "category": ["corticoide nasal"]
+      "category": [
+        "corticoide_nasal",
+        "corticoide_inalatorio"
+      ],
+      "frequency": [
+        "12/12h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "50mcg"
+      ],
+      "quantity_per_dose": [
+        "1 jato",
+        "2 jatos",
+        "3 puffs"
+      ],
+      "duration": [
+        "10 dias"
+      ],
+      "packaging_type": [
+        "spray_frasco"
+      ]
     },
     "salbutamol": {
-       "dosage": ["100mcg/dose"],
-       "quantity_per_dose": ["4 puffs"],
-       "frequency": ["6/6h", "4/4h"],
-       "packaging_type": ["spray/frasco"],
-       "category": ["broncodilatador"]
+      "category": [
+        "broncodilatador"
+      ],
+      "frequency": [
+        "6/6h",
+        "4/4h"
+      ],
+      "frequency_unit": [
+        "horas",
+        "horas"
+      ],
+      "dosage": [
+        "100mcg/dose"
+      ],
+      "quantity_per_dose": [
+        "4 puffs"
+      ],
+      "packaging_type": [
+        "spray_frasco"
+      ]
+    },
+    "budesonida_formoterol_symbicort": {
+      "category": [
+        "broncodilatador",
+        "corticoide_inalatorio"
+      ],
+      "frequency": [
+        "8/8h",
+        "12/12h"
+      ],
+      "frequency_unit": [
+        "horas",
+        "horas"
+      ],
+      "dosage": [
+        "200mcg+6mcg"
+      ],
+      "quantity_per_dose": [
+        "1 inalação"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     }
   },
   "oftalmico": {
     "tobramicina": {
-      "dosage": ["3mg/ml", "0.3%"],
-      "quantity_per_dose": ["1 gota", "2 gotas"],
-      "frequency": ["6/6h", "4/4h", "8/8h"],
-      "duration": ["5 dias", "7 dias"],
-      "packaging_type": ["frasco", "tubo (pomada)"],
-      "category": ["antibiótico oftálmico"]
+      "category": [
+        "antibiotico_oftalmico"
+      ],
+      "frequency": [
+        "6/6h",
+        "4/4h",
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas",
+        "horas",
+        "horas"
+      ],
+      "dosage": [
+        "3mg/ml",
+        "0.3%"
+      ],
+      "quantity_per_dose": [
+        "1 gota",
+        "2 gotas"
+      ],
+      "duration": [
+        "5 dias",
+        "7 dias"
+      ],
+      "packaging_type": [
+        "frasco",
+        "tubo_pomada"
+      ]
+    },
+    "tobramicina_dexametasona": {
+      "category": [
+        "antibiotico_oftalmico",
+        "corticoide_oftalmico"
+      ],
+      "frequency": [
+        "4/4h"
+      ],
+      "frequency_unit": [
+        "horas"
+      ],
+      "dosage": [
+        "3+1mg/ml"
+      ],
+      "quantity_per_dose": [
+        "2 gotas"
+      ],
+      "duration": [
+        "7 a 14 dias"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "carmelose_sodica": {
-      "dosage": ["0.5%"],
-      "quantity_per_dose": ["1 gota"],
-      "frequency": ["2/2h", "8/8h"],
-      "packaging_type": ["frasco"],
-      "category": ["lubrificante ocular"]
+      "category": [
+        "lubrificante_ocular"
+      ],
+      "frequency": [
+        "2/2h",
+        "8/8h"
+      ],
+      "frequency_unit": [
+        "horas",
+        "horas"
+      ],
+      "dosage": [
+        "0.5%"
+      ],
+      "quantity_per_dose": [
+        "1 gota"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
+    },
+    "hialuronato_de_sodio": {
+      "category": [
+        "lubrificante_ocular"
+      ],
+      "frequency": [
+        "4x ao dia"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "0.15%"
+      ],
+      "quantity_per_dose": [
+        "aplicar no olho"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
+    },
+    "ecofilm": {
+      "category": [
+        "lubrificante_ocular"
+      ],
+      "frequency": [
+        "4x ao dia"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "colirio"
+      ],
+      "quantity_per_dose": [
+        "1 gota"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
+    },
+    "lacribell": {
+      "category": [
+        "lubrificante_ocular"
+      ],
+      "frequency": [
+        "5x ao dia"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "colirio"
+      ],
+      "quantity_per_dose": [
+        "1 gota"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     },
     "moxifloxacino": {
-        "dosage": ["0.5%"],
-        "quantity_per_dose": ["1 gota"],
-        "frequency": ["4x ao dia"],
-        "duration": ["7 a 14 dias"],
-        "packaging_type": ["frasco"],
-        "category": ["antibiótico oftálmico"]
+      "category": [
+        "antibiotico_oftalmico"
+      ],
+      "frequency": [
+        "4x ao dia"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "0.5%"
+      ],
+      "quantity_per_dose": [
+        "1 gota"
+      ],
+      "duration": [
+        "7 a 14 dias"
+      ],
+      "packaging_type": [
+        "frasco"
+      ]
     }
   },
   "sache": {
     "sais_reidratacao_oral": {
-      "dosage": ["pó para solução"],
-      "quantity_per_dose": ["1 sachê em 1L de água"],
-      "frequency": ["ao longo do dia", "após evacuações"],
-      "packaging_type": ["sachê"],
-      "category": ["reidratação"]
+      "category": [
+        "reidratacao",
+        "repositor_eletrolitico"
+      ],
+      "frequency": [
+        "ao longo do dia",
+        "após evacuações"
+      ],
+      "frequency_unit": [
+        "dias",
+        "evento"
+      ],
+      "dosage": [
+        "pó para solução"
+      ],
+      "quantity_per_dose": [
+        "1 sachê em 1L de água"
+      ],
+      "packaging_type": [
+        "sache"
+      ]
     },
     "fosfomicina": {
-      "dosage": ["3g"],
-      "quantity_per_dose": ["1 sachê"],
-      "frequency": ["dose única"],
-      "packaging_type": ["sachê/caixa"],
-      "category": ["antibiótico"]
+      "category": [
+        "antibiotico"
+      ],
+      "frequency": [
+        "dose única"
+      ],
+      "frequency_unit": [
+        "dose_unica"
+      ],
+      "dosage": [
+        "3g"
+      ],
+      "quantity_per_dose": [
+        "1 sachê"
+      ],
+      "packaging_type": [
+        "sache_caixa"
+      ]
+    },
+    "macrogol": {
+      "category": [
+        "laxante_osmotico"
+      ],
+      "frequency": [
+        "1x ao dia"
+      ],
+      "frequency_unit": [
+        "dias"
+      ],
+      "dosage": [
+        "3350"
+      ],
+      "quantity_per_dose": [
+        "0.3 - 1.4 g/kg/dia"
+      ],
+      "packaging_type": [
+        "caixa_sache"
+      ]
     }
   },
   "injetavel": {
-      "dipirona": {
-          "dosage": ["ampola"],
-          "quantity_per_dose": ["1 ampola", "peso x 0.02ml"],
-          "packaging_type": ["ampola"],
-          "category": ["analgésico"]
-      },
-      "diclofenaco (voltaren)": {
-          "dosage": ["ampola"],
-          "quantity_per_dose": ["1 ampola"],
-          "packaging_type": ["ampola"],
-          "category": ["anti-inflamatório"]
-      },
-      "dexametasona": {
-          "dosage": ["ampola"],
-          "quantity_per_dose": ["1 ampola", "peso x 0.15"],
-          "packaging_type": ["ampola"],
-          "category": ["corticoide"]
-      },
-      "ceftriaxona": {
-          "dosage": ["injetável"],
-          "quantity_per_dose": ["dose terapêutica"],
-          "packaging_type": ["frasco-ampola"],
-          "category": ["antibiótico"]
-      }
+    "dipirona": {
+      "category": [
+        "analgesico",
+        "antipiretico"
+      ],
+      "dosage": [
+        "ampola"
+      ],
+      "quantity_per_dose": [
+        "1 ampola",
+        "peso x 0.02ml"
+      ],
+      "packaging_type": [
+        "ampola"
+      ]
+    },
+    "diclofenaco_voltaren": {
+      "category": [
+        "anti_inflamatorio",
+        "analgesico"
+      ],
+      "dosage": [
+        "ampola"
+      ],
+      "quantity_per_dose": [
+        "1 ampola"
+      ],
+      "packaging_type": [
+        "ampola"
+      ]
+    },
+    "dexametasona": {
+      "category": [
+        "corticoide",
+        "anti_inflamatorio"
+      ],
+      "dosage": [
+        "ampola"
+      ],
+      "quantity_per_dose": [
+        "1 ampola",
+        "peso x 0.15"
+      ],
+      "packaging_type": [
+        "ampola"
+      ]
+    },
+    "metilprednisolona": {
+      "category": [
+        "corticoide",
+        "anti_inflamatorio"
+      ],
+      "dosage": [
+        "injetável"
+      ],
+      "quantity_per_dose": [
+        "peso x 0.016"
+      ],
+      "packaging_type": [
+        "ampola"
+      ]
+    },
+    "hidrocortisona": {
+      "category": [
+        "corticoide",
+        "anti_inflamatorio"
+      ],
+      "dosage": [
+        "injetável"
+      ],
+      "quantity_per_dose": [
+        "peso x 0.08"
+      ],
+      "packaging_type": [
+        "ampola"
+      ]
+    },
+    "adrenalina": {
+      "category": [
+        "vasopressor",
+        "broncodilatador",
+        "antineoplasico"
+      ],
+      "dosage": [
+        "ampola"
+      ],
+      "quantity_per_dose": [
+        "peso/100",
+        "peso/10"
+      ],
+      "packaging_type": [
+        "ampola"
+      ]
+    },
+    "ceftriaxona": {
+      "category": [
+        "antibiotico"
+      ],
+      "dosage": [
+        "injetável"
+      ],
+      "quantity_per_dose": [
+        "dose terapêutica"
+      ],
+      "packaging_type": [
+        "frasco_ampola"
+      ]
+    },
+    "penicilina_benzatina": {
+      "category": [
+        "antibiotico"
+      ],
+      "dosage": [
+        "600.000ui",
+        "1.200.000ui"
+      ],
+      "quantity_per_dose": [
+        "dose única"
+      ],
+      "frequency_unit": [
+        "dose_unica"
+      ],
+      "packaging_type": [
+        "ampola"
+      ]
+    }
+  },
+  "pastilha": {
+    "benalete": {
+      "category": [
+        "antitussigeno",
+        "analgesico_topico_oral"
+      ],
+      "frequency": [
+        "1h",
+        "6/6h"
+      ],
+      "frequency_unit": [
+        "horas",
+        "horas"
+      ],
+      "dosage": [
+        "pastilha"
+      ],
+      "quantity_per_dose": [
+        "até 2 pastilhas"
+      ],
+      "packaging_type": [
+        "caixa"
+      ]
+    }
   }
 }
