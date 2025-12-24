@@ -1,0 +1,435 @@
+{
+  "static_data": {
+    "categories": [
+      {"slug": "analgesico", "name": "Analgésico"},
+      {"slug": "antipiretico", "name": "Antipirético"},
+      {"slug": "anti_inflamatorio", "name": "Anti-inflamatório"},
+      {"slug": "antibiotico", "name": "Antibiótico"},
+      {"slug": "antiemetico", "name": "Antiemético"},
+      {"slug": "corticoide", "name": "Corticoide"},
+      {"slug": "anti_alergico", "name": "Antialérgico"},
+      {"slug": "antigases", "name": "Antigases"},
+      {"slug": "laxante", "name": "Laxante"},
+      {"slug": "expectorante", "name": "Expectorante"},
+      {"slug": "oftalmico", "name": "Oftálmico"},
+      {"slug": "otologico", "name": "Otológico"},
+      {"slug": "topico", "name": "Tópico"},
+      {"slug": "reidratacao", "name": "Reidratação"},
+      {"slug": "suplemento", "name": "Suplemento"},
+      {"slug": "antiparasitario", "name": "Antiparasitário"},
+      {"slug": "ansiolitico", "name": "Ansiolítico"},
+      {"slug": "relaxante_muscular", "name": "Relaxante Muscular"},
+      {"slug": "antiulceroso", "name": "Antiulceroso (IBP)"},
+       {"slug": "antiespasmodico", "name": "Antiespasmódico"}
+    ],
+    "forms": [
+      {"slug": "comprimido", "name": "Comprimido", "unit_label": "cp"},
+      {"slug": "gotas", "name": "Solução Gotas", "unit_label": "gt"},
+      {"slug": "xarope_suspensao", "name": "Xarope/Suspensão", "unit_label": "ml"},
+      {"slug": "injetavel", "name": "Injetável (Ampola)", "unit_label": "amp"},
+      {"slug": "topico_creme", "name": "Creme/Pomada", "unit_label": "aplicação"},
+      {"slug": "spray", "name": "Spray Nasal/Oral", "unit_label": "jato"},
+      {"slug": "colirio", "name": "Solução Oftálmica", "unit_label": "gt"},
+      {"slug": "sache", "name": "Pó (Sachê)", "unit_label": "sachê"}
+    ]
+  },
+  "medications": [
+    {
+      "generic_name": "Dipirona",
+      "category_slugs": ["analgesico", "antipiretico"],
+      "presentations": [
+        {
+          "form_slug": "gotas",
+          "concentration": "500mg/ml",
+          "default_recipe": {
+            "frequency_text": "6/6h",
+            "quantity_logic": "peso x 0.4",
+            "quantity_unit": "gotas",
+            "duration_text": "enquanto houver dor ou febre",
+            "instructions": "Se persistirem os sintomas, procurar atendimento médico."
+          }
+        },
+        {
+          "form_slug": "comprimido",
+          "concentration": "500mg",
+          "default_recipe": {
+            "frequency_text": "6/6h",
+            "quantity_logic": "1",
+            "quantity_unit": "cp",
+            "duration_text": "enquanto houver dor"
+          }
+        },
+        {
+          "form_slug": "comprimido",
+          "concentration": "1g",
+          "default_recipe": {
+            "frequency_text": "6/6h",
+            "quantity_logic": "1",
+            "quantity_unit": "cp",
+            "duration_text": "enquanto houver dor"
+          }
+        },
+        {
+          "form_slug": "injetavel",
+          "concentration": "Ampola",
+          "default_recipe": {
+            "frequency_text": "dose única",
+            "quantity_logic": "1",
+            "quantity_unit": "ampola",
+            "duration_text": "imediato"
+          }
+        }
+      ]
+    },
+    {
+      "generic_name": "Ibuprofeno",
+      "category_slugs": ["anti_inflamatorio", "analgesico", "antipiretico"],
+      "presentations": [
+        {
+          "form_slug": "gotas",
+          "concentration": "50mg/ml",
+          "default_recipe": {
+            "frequency_text": "8/8h",
+            "quantity_logic": "1 gota/kg",
+            "quantity_unit": "gotas",
+            "duration_text": "3 a 5 dias"
+          }
+        },
+         {
+          "form_slug": "gotas",
+          "concentration": "100mg/ml",
+          "default_recipe": {
+            "frequency_text": "8/8h",
+            "quantity_logic": "1 gota/kg",
+            "quantity_unit": "gotas",
+            "duration_text": "3 a 5 dias"
+          }
+        },
+        {
+          "form_slug": "comprimido",
+          "concentration": "300mg",
+          "default_recipe": {
+            "frequency_text": "8/8h",
+            "quantity_logic": "1",
+            "quantity_unit": "cp",
+            "duration_text": "5 dias"
+          }
+        },
+        {
+          "form_slug": "comprimido",
+          "concentration": "600mg",
+          "default_recipe": {
+            "frequency_text": "8/8h",
+            "quantity_logic": "1",
+            "quantity_unit": "cp",
+            "duration_text": "5 dias"
+          }
+        }
+      ]
+    },
+    {
+      "generic_name": "Paracetamol",
+      "category_slugs": ["analgesico", "antipiretico"],
+      "presentations": [
+        {
+          "form_slug": "gotas",
+          "concentration": "200mg/ml",
+          "default_recipe": {
+            "frequency_text": "6/6h",
+            "quantity_logic": "1 gota/kg",
+            "quantity_unit": "gotas",
+            "duration_text": "enquanto houver dor"
+          }
+        },
+        {
+          "form_slug": "comprimido",
+          "concentration": "500mg",
+          "default_recipe": {
+            "frequency_text": "6/6h",
+            "quantity_logic": "1",
+            "quantity_unit": "cp",
+            "duration_text": "enquanto houver dor"
+          }
+        },
+        {
+          "form_slug": "comprimido",
+          "concentration": "750mg",
+          "default_recipe": {
+            "frequency_text": "6/6h",
+            "quantity_logic": "1",
+            "quantity_unit": "cp",
+            "duration_text": "enquanto houver dor"
+          }
+        }
+      ]
+    },
+    {
+      "generic_name": "Amoxicilina",
+      "category_slugs": ["antibiotico"],
+      "presentations": [
+        {
+          "form_slug": "xarope_suspensao",
+          "concentration": "250mg/5ml",
+          "default_recipe": {
+            "frequency_text": "8/8h",
+            "quantity_logic": "peso / 3",
+            "quantity_unit": "ml",
+            "duration_text": "7 a 10 dias",
+            "instructions": "Manter na geladeira após aberto."
+          }
+        },
+        {
+          "form_slug": "xarope_suspensao",
+          "concentration": "400mg/5ml",
+          "default_recipe": {
+            "frequency_text": "12/12h",
+            "quantity_logic": "peso / 2",
+            "quantity_unit": "ml",
+            "duration_text": "10 dias"
+          }
+        }
+      ]
+    },
+    {
+      "generic_name": "Azitromicina",
+      "category_slugs": ["antibiotico"],
+      "presentations": [
+        {
+          "form_slug": "xarope_suspensao",
+          "concentration": "200mg/5ml",
+          "default_recipe": {
+            "frequency_text": "1x ao dia",
+            "quantity_logic": "peso / 4",
+            "quantity_unit": "ml",
+            "duration_text": "5 dias"
+          }
+        },
+        {
+          "form_slug": "comprimido",
+          "concentration": "500mg",
+          "default_recipe": {
+            "frequency_text": "1x ao dia",
+            "quantity_logic": "1",
+            "quantity_unit": "cp",
+            "duration_text": "5 dias"
+          }
+        }
+      ]
+    },
+    {
+      "generic_name": "Amoxicilina + Clavulanato",
+      "category_slugs": ["antibiotico"],
+      "presentations": [
+        {
+          "form_slug": "xarope_suspensao",
+          "concentration": "250mg + 62,5mg/5ml",
+          "default_recipe": {
+            "frequency_text": "8/8h",
+            "quantity_logic": "peso / 3",
+            "quantity_unit": "ml",
+            "duration_text": "10 dias"
+          }
+        }
+      ]
+    },
+    {
+      "generic_name": "Prednisolona",
+      "category_slugs": ["corticoide", "anti_inflamatorio"],
+      "presentations": [
+        {
+          "form_slug": "xarope_suspensao",
+          "concentration": "3mg/ml",
+          "default_recipe": {
+            "frequency_text": "1x ao dia (pela manhã)",
+            "quantity_logic": "peso / 3",
+            "quantity_unit": "ml",
+            "duration_text": "5 dias"
+          }
+        }
+      ]
+    },
+    {
+      "generic_name": "Prednisona",
+      "category_slugs": ["corticoide", "anti_inflamatorio"],
+      "presentations": [
+        {
+          "form_slug": "comprimido",
+          "concentration": "20mg",
+          "default_recipe": {
+            "frequency_text": "1x ao dia (pela manhã)",
+            "quantity_logic": "1 a 2",
+            "quantity_unit": "cp",
+            "duration_text": "3 a 5 dias"
+          }
+        }
+      ]
+    },
+    {
+      "generic_name": "Loratadina",
+      "category_slugs": ["anti_alergico"],
+      "presentations": [
+        {
+          "form_slug": "xarope_suspensao",
+          "concentration": "1mg/ml",
+          "default_recipe": {
+            "frequency_text": "1x ao dia",
+            "quantity_logic": "5 a 10",
+            "quantity_unit": "ml",
+            "duration_text": "5 a 7 dias"
+          }
+        },
+        {
+          "form_slug": "comprimido",
+          "concentration": "10mg",
+          "default_recipe": {
+            "frequency_text": "1x ao dia",
+            "quantity_logic": "1",
+            "quantity_unit": "cp",
+            "duration_text": "5 a 7 dias"
+          }
+        }
+      ]
+    },
+     {
+      "generic_name": "Ondansetrona",
+      "category_slugs": ["antiemetico"],
+      "presentations": [
+        {
+          "form_slug": "comprimido",
+          "concentration": "8mg",
+          "default_recipe": {
+            "frequency_text": "8/8h",
+            "quantity_logic": "1",
+            "quantity_unit": "cp",
+            "duration_text": "se náusea"
+          }
+        }
+      ]
+    },
+    {
+      "generic_name": "Dimenidrinato + Piridoxina (Dramin)",
+      "category_slugs": ["antiemetico"],
+      "presentations": [
+        {
+          "form_slug": "gotas",
+          "concentration": "25mg + 5mg/ml",
+          "default_recipe": {
+            "frequency_text": "6/6h a 8/8h",
+            "quantity_logic": "1 gota/kg",
+            "quantity_unit": "gotas",
+            "duration_text": "se náusea"
+          }
+        }
+      ]
+    },
+    {
+      "generic_name": "Simeticona",
+      "category_slugs": ["antigases"],
+      "presentations": [
+        {
+          "form_slug": "gotas",
+          "concentration": "75mg/ml",
+          "default_recipe": {
+            "frequency_text": "8/8h",
+            "quantity_logic": "5 a 40",
+            "quantity_unit": "gotas",
+            "duration_text": "se cólica/gases"
+          }
+        }
+      ]
+    },
+     {
+      "generic_name": "Escopolamina (Buscopan)",
+      "category_slugs": ["antiespasmodico"],
+      "presentations": [
+        {
+          "form_slug": "comprimido",
+          "concentration": "10mg",
+          "default_recipe": {
+            "frequency_text": "8/8h",
+            "quantity_logic": "1",
+            "quantity_unit": "cp",
+            "duration_text": "se dor abdominal"
+          }
+        },
+        {
+          "form_slug": "gotas",
+          "concentration": "10mg/ml",
+          "default_recipe": {
+            "frequency_text": "8/8h",
+            "quantity_logic": "40",
+            "quantity_unit": "gotas",
+            "duration_text": "se dor abdominal"
+          }
+        }
+      ]
+    },
+    {
+      "generic_name": "Sais de Reidratação Oral",
+      "category_slugs": ["reidratacao"],
+      "presentations": [
+        {
+          "form_slug": "sache",
+          "concentration": "Pó para solução",
+          "default_recipe": {
+            "frequency_text": "ao longo do dia",
+            "quantity_logic": "1 sachê em 1L",
+            "quantity_unit": "sachê",
+            "duration_text": "enquanto houver diarreia",
+            "instructions": "Diluir em 1 litro de água filtrada."
+          }
+        }
+      ]
+    },
+    {
+      "generic_name": "Tobramicina",
+      "category_slugs": ["antibiotico", "oftalmico"],
+      "presentations": [
+        {
+          "form_slug": "colirio",
+          "concentration": "0.3%",
+          "default_recipe": {
+            "frequency_text": "4/4h a 6/6h",
+            "quantity_logic": "1 a 2",
+            "quantity_unit": "gotas",
+            "duration_text": "5 a 7 dias",
+            "instructions": "Aplicar no olho afetado."
+          }
+        }
+      ]
+    },
+     {
+      "generic_name": "Soro Fisiológico",
+      "category_slugs": ["topico", "reidratacao"],
+      "presentations": [
+        {
+          "form_slug": "xarope_suspensao",
+          "concentration": "0.9%",
+          "default_recipe": {
+            "frequency_text": "várias vezes ao dia",
+            "quantity_logic": "5 a 10",
+            "quantity_unit": "ml",
+            "duration_text": "uso contínuo",
+            "instructions": "Lavagem nasal ou inalação."
+          }
+        }
+      ]
+    },
+    {
+      "generic_name": "Mupirocina",
+      "category_slugs": ["antibiotico", "topico"],
+      "presentations": [
+        {
+          "form_slug": "topico_creme",
+          "concentration": "2%",
+          "default_recipe": {
+            "frequency_text": "3x ao dia",
+            "quantity_logic": "fina camada",
+            "quantity_unit": "aplicação",
+            "duration_text": "7 a 10 dias"
+          }
+        }
+      ]
+    }
+  ]
+}
