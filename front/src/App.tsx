@@ -1,6 +1,6 @@
 import { api } from './services/api'
 import { useEffect, useState } from 'react'
-import { Accordion, Stack, type AccordionValueChangeDetails } from "@chakra-ui/react"
+import { Accordion, Stack } from "@chakra-ui/react"
 import type { CategoryList } from './types/types'
 import { Categories } from './components/Categories/Categories'
 // import { usePrescription } from './context/PrescriptionContext'
