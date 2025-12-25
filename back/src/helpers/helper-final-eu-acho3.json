@@ -1,102 +1,279 @@
 {
   "static_data": {
     "categories": [
-      {"slug": "analgesico", "name": "Analgésico"},
-      {"slug": "antipiretico", "name": "Antipirético"},
-      {"slug": "anti_inflamatorio", "name": "Anti-inflamatório"},
-      {"slug": "antibiotico", "name": "Antibiótico"},
-      {"slug": "antiemetico", "name": "Antiemético"},
-      {"slug": "corticoide", "name": "Corticoide"},
-      {"slug": "anti_alergico", "name": "Antialérgico"},
-      {"slug": "antigases", "name": "Antigases"},
-      {"slug": "laxante", "name": "Laxante"},
-      {"slug": "expectorante", "name": "Expectorante"},
-      {"slug": "oftalmico", "name": "Oftálmico"},
-      {"slug": "otologico", "name": "Otológico"},
-      {"slug": "topico", "name": "Tópico"},
-      {"slug": "reidratacao", "name": "Reidratação"},
-      {"slug": "suplemento", "name": "Suplemento"},
-      {"slug": "antiparasitario", "name": "Antiparasitário"},
-      {"slug": "ansiolitico", "name": "Ansiolítico"},
-      {"slug": "relaxante_muscular", "name": "Relaxante Muscular"},
-      {"slug": "antiulceroso", "name": "Antiulceroso (IBP)"},
-      {"slug": "antiespasmodico", "name": "Antiespasmódico"},
-      {"slug": "vasopressor", "name": "Vasopressor"},
-      {"slug": "antisseptico_urinario", "name": "Antisséptico Urinário"},
-      {"slug": "corticoide_topico", "name": "Corticoide Tópico"},
-      {"slug": "antibiotico_topico", "name": "Antibiótico Tópico"},
-      {"slug": "fluidificante", "name": "Fluidificante"},
-      {"slug": "cicatrizante", "name": "Cicatrizante"},
-      {"slug": "procinetico", "name": "Procinético"},
-      {"slug": "ceruminolitico", "name": "Ceruminolítico"},
-      {"slug": "inibidor_de_bomba_de_protons", "name": "Inibidor de Bomba de Prótons"},
-      {"slug": "antiacido", "name": "Antiácido"},
-      {"slug": "hidratante", "name": "Hidratante"},
-      {"slug": "antisseptico_topico", "name": "Antisséptico Tópico"},
-      {"slug": "solucao_salina", "name": "Solução Salina"},
-      {"slug": "lubrificante_ocular", "name": "Lubrificante Ocular"},
-      {"slug": "anti_histaminico", "name": "Anti-histamínico"},
-      {"slug": "suplemento_mineral", "name": "Suplemento Mineral"},
-      {"slug": "antihelmintico", "name": "Antihelmíntico"},
-      {"slug": "corticoide_topico_oral", "name": "Corticoide Tópico Oral"},
-      {"slug": "bloqueador_alfa_adrenergico", "name": "Bloqueador Alfa Adrenérgico"},
-      {"slug": "antineoplasico", "name": "Antineoplásico"},
-      {"slug": "antifungico", "name": "Antifúngico"},
-      {"slug": "repositor_eletrolitico", "name": "Repositor Eletrolítico"},
-      {"slug": "probiotico", "name": "Probiótico"},
-      {"slug": "antiseborreico", "name": "Antiseborreico"},
-      {"slug": "antibiotico_oftalmico", "name": "Antibiótico Oftálmico"},
-      {"slug": "antivertiginoso", "name": "Antivertiginoso"},
-      {"slug": "bloqueador_canal_calcio", "name": "Bloqueador Canal de Cálcio"},
-      {"slug": "antifungico_topico", "name": "Antifúngico Tópico"},
-      {"slug": "mucolitico", "name": "Mucolítico"},
-      {"slug": "antidiarreico", "name": "Antidiarreico"},
-      {"slug": "laxante_osmotico", "name": "Laxante Osmótico"},
-      {"slug": "analgesico_topico_oral", "name": "Analgésico Tópico Oral"},
-      {"slug": "queratolitico", "name": "Queratolítico"},
-      {"slug": "antiflatulento", "name": "Antiflatulento"},
-      {"slug": "antienxaquecoso", "name": "Antienxaquecoso"},
-      {"slug": "corticoide_oftalmico", "name": "Corticoide Oftálmico"},
-      {"slug": "antitussigeno", "name": "Antitussígeno"},
-      {"slug": "corticoide_otologico", "name": "Corticoide Otológico"},
-      {"slug": "fitoterapico", "name": "Fitoterápico"},
-      {"slug": "corticoide_inalatorio", "name": "Corticoide Inalatório"},
-      {"slug": "vasoconstritor", "name": "Vasoconstritor"},
-      {"slug": "analgesico_otologico", "name": "Analgésico Otológico"},
-      {"slug": "corticoide_nasal", "name": "Corticoide Nasal"},
-      {"slug": "escabicida", "name": "Escabicida"},
-      {"slug": "broncodilatador", "name": "Broncodilatador"},
-      {"slug": "pediculicida", "name": "Pediculicida"},
-      {"slug": "protetor_de_pele", "name": "Protetor de Pele"},
-      {"slug": "antipruriginoso", "name": "Antipruriginoso"},
-      {"slug": "analgesico_opioide", "name": "Analgésico Opioide"},
-      {"slug": "anti_inflamatorio_topico", "name": "Anti-inflamatório Tópico"},
-      {"slug": "anestesico_local", "name": "Anestésico Local"}
+      {
+        "slug": "analgesico",
+        "name": "Analgésico"
+      },
+      {
+        "slug": "analgesico_opioide",
+        "name": "Analgésico Opioide"
+      },
+      {
+        "slug": "antipiretico",
+        "name": "Antipirético"
+      },
+      {
+        "slug": "anti_inflamatorio",
+        "name": "Anti-inflamatório"
+      },
+      {
+        "slug": "anti_inflamatorio_topico",
+        "name": "Anti-inflamatório Tópico"
+      },
+      {
+        "slug": "antibiotico",
+        "name": "Antibiótico"
+      },
+      {
+        "slug": "antibiotico_topico",
+        "name": "Antibiótico Tópico"
+      },
+      {
+        "slug": "antibiotico_oftalmico",
+        "name": "Antibiótico Oftálmico"
+      },
+      {
+        "slug": "antiemetico",
+        "name": "Antiemético"
+      },
+      {
+        "slug": "antiespasmodico",
+        "name": "Antiespasmódico"
+      },
+      {
+        "slug": "antidiarreico",
+        "name": "Antidiarreico"
+      },
+      {
+        "slug": "antiflatulento",
+        "name": "Antiflatulento"
+      },
+      {
+        "slug": "anti_histaminico",
+        "name": "Anti-histamínico"
+      },
+      {
+        "slug": "antipruriginoso",
+        "name": "Antipruriginoso"
+      },
+      {
+        "slug": "corticoide",
+        "name": "Corticoide"
+      },
+      {
+        "slug": "corticoide_topico",
+        "name": "Corticoide Tópico"
+      },
+      {
+        "slug": "corticoide_oftalmico",
+        "name": "Corticoide Oftálmico"
+      },
+      {
+        "slug": "corticoide_otologico",
+        "name": "Corticoide Otológico"
+      },
+      {
+        "slug": "corticoide_nasal",
+        "name": "Corticoide Nasal"
+      },
+      {
+        "slug": "corticoide_inalatorio",
+        "name": "Corticoide Inalatório"
+      },
+      {
+        "slug": "ansiolitico",
+        "name": "Ansiolítico"
+      },
+      {
+        "slug": "relaxante_muscular",
+        "name": "Relaxante Muscular"
+      },
+      {
+        "slug": "antienxaquecoso",
+        "name": "Antienxaquecoso"
+      },
+      {
+        "slug": "antiparasitario",
+        "name": "Antiparasitário"
+      },
+      {
+        "slug": "antihelmintico",
+        "name": "Anti-helmíntico"
+      },
+      {
+        "slug": "escabicida",
+        "name": "Escabicida"
+      },
+      {
+        "slug": "pediculicida",
+        "name": "Pediculicida"
+      },
+      {
+        "slug": "antifungico",
+        "name": "Antifúngico"
+      },
+      {
+        "slug": "antifungico_topico",
+        "name": "Antifúngico Tópico"
+      },
+      {
+        "slug": "broncodilatador",
+        "name": "Broncodilatador"
+      },
+      {
+        "slug": "expectorante",
+        "name": "Expectorante"
+      },
+      {
+        "slug": "mucolitico",
+        "name": "Mucolítico"
+      },
+      {
+        "slug": "antitussigeno",
+        "name": "Antitussígeno"
+      },
+      {
+        "slug": "antiulceroso",
+        "name": "Antiulceroso (IBP)"
+      },
+      {
+        "slug": "antiacido",
+        "name": "Antiácido"
+      },
+      {
+        "slug": "procinetico",
+        "name": "Procinético"
+      },
+      {
+        "slug": "laxante",
+        "name": "Laxante"
+      },
+      {
+        "slug": "laxante_osmotico",
+        "name": "Laxante Osmótico"
+      },
+      {
+        "slug": "vasopressor",
+        "name": "Vasopressor"
+      },
+      {
+        "slug": "vasoconstritor",
+        "name": "Vasoconstritor"
+      },
+      {
+        "slug": "antisseptico_topico",
+        "name": "Antisséptico Tópico"
+      },
+      {
+        "slug": "antisseptico_urinario",
+        "name": "Antisséptico Urinário"
+      },
+      {
+        "slug": "ceruminolitico",
+        "name": "Ceruminolítico"
+      },
+      {
+        "slug": "lubrificante_ocular",
+        "name": "Lubrificante Ocular"
+      },
+      {
+        "slug": "solucao_salina",
+        "name": "Solução Salina"
+      },
+      {
+        "slug": "suplemento",
+        "name": "Suplemento"
+      },
+      {
+        "slug": "suplemento_mineral",
+        "name": "Suplemento Mineral"
+      },
+      {
+        "slug": "probiotico",
+        "name": "Probiótico"
+      },
+      {
+        "slug": "fitoterapico",
+        "name": "Fitoterápico"
+      },
+      {
+        "slug": "anestesico_local",
+        "name": "Anestésico Local"
+      }
     ],
     "forms": [
-      {"slug": "spray", "name": "Spray", "unit_label": "jato"},
-      {"slug": "pastilha", "name": "Pastilha", "unit_label": "un"},
-      {"slug": "gotas", "name": "Gotas", "unit_label": "gt"},
-      {"slug": "colirio", "name": "Colírio", "unit_label": "gt"},
-      {"slug": "xarope_suspensao", "name": "Xarope/Suspensão", "unit_label": "ml"},
-      {"slug": "topico_creme", "name": "Tópico (Creme/Pomada)", "unit_label": "aplicação"},
-      {"slug": "injetavel", "name": "Injetável", "unit_label": "amp"},
-      {"slug": "sache", "name": "Sachê", "unit_label": "sachê"},
-      {"slug": "comprimido", "name": "Comprimido", "unit_label": "cp"}
+      {
+        "slug": "spray",
+        "name": "Spray",
+        "unit_label": "jato"
+      },
+      {
+        "slug": "pastilha",
+        "name": "Pastilha",
+        "unit_label": "un"
+      },
+      {
+        "slug": "gotas",
+        "name": "Gotas",
+        "unit_label": "gt"
+      },
+      {
+        "slug": "colirio",
+        "name": "Colírio",
+        "unit_label": "gt"
+      },
+      {
+        "slug": "xarope_suspensao",
+        "name": "Xarope/Suspensão",
+        "unit_label": "ml"
+      },
+      {
+        "slug": "topico_creme",
+        "name": "Tópico (Creme/Pomada)",
+        "unit_label": "aplicação"
+      },
+      {
+        "slug": "injetavel",
+        "name": "Injetável",
+        "unit_label": "amp"
+      },
+      {
+        "slug": "sache",
+        "name": "Sachê",
+        "unit_label": "sachê"
+      },
+      {
+        "slug": "comprimido",
+        "name": "Comprimido",
+        "unit_label": "cp"
+      }
     ]
   },
   "medications": [
     {
       "generic_name": "Dipirona",
-      "category_slugs": ["analgesico", "antipiretico"],
+      "category_slugs": [
+        "analgesico",
+        "antipiretico"
+      ],
       "presentations": [
         {
           "form_slug": "gotas",
-          "concentration": ["500mg/ml"],
+          "concentration": [
+            "500mg/ml"
+          ],
           "default_recipe": {
-            "frequency": ["6/6", "4/4"],
+            "frequency": [
+              "6/6",
+              "4/4"
+            ],
             "frequency_unit": "horas",
-            "quantity": [18, 20, 40],
+            "quantity": [
+              18,
+              20,
+              40
+            ],
             "quantity_unit": "gt",
             "pediatric_calculation": "peso x 0.4",
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -104,11 +281,20 @@
         },
         {
           "form_slug": "comprimido",
-          "concentration": ["500mg", "1g"],
+          "concentration": [
+            "500mg",
+            "1g"
+          ],
           "default_recipe": {
-            "frequency": ["6/6", "8/8"],
+            "frequency": [
+              "6/6",
+              "8/8"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1, 2],
+            "quantity": [
+              1,
+              2
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -116,11 +302,17 @@
         },
         {
           "form_slug": "injetavel",
-          "concentration": ["Ampola"],
+          "concentration": [
+            "Ampola"
+          ],
           "default_recipe": {
-            "frequency": ["dose única"],
+            "frequency": [
+              "dose única"
+            ],
             "frequency_unit": "dose única",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "amp",
             "pediatric_calculation": "peso x 0.02ml",
             "duration_text": "imediato"
@@ -130,15 +322,26 @@
     },
     {
       "generic_name": "Ibuprofeno",
-      "category_slugs": ["analgesico", "antipiretico", "anti_inflamatorio"],
+      "category_slugs": [
+        "analgesico",
+        "antipiretico",
+        "anti_inflamatorio"
+      ],
       "presentations": [
         {
           "form_slug": "gotas",
-          "concentration": ["50mg/ml", "100mg/ml"],
+          "concentration": [
+            "50mg/ml",
+            "100mg/ml"
+          ],
           "default_recipe": {
-            "frequency": ["8/8"],
+            "frequency": [
+              "8/8"
+            ],
             "frequency_unit": "horas",
-            "quantity": [40],
+            "quantity": [
+              40
+            ],
             "quantity_unit": "gt",
             "pediatric_calculation": "1 gota/kg",
             "duration_text": "3 dias, 5 dias"
@@ -146,11 +349,19 @@
         },
         {
           "form_slug": "comprimido",
-          "concentration": ["300mg", "600mg"],
+          "concentration": [
+            "300mg",
+            "600mg"
+          ],
           "default_recipe": {
-            "frequency": ["8/8"],
+            "frequency": [
+              "8/8"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1, 2],
+            "quantity": [
+              1,
+              2
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "5 dias"
@@ -160,13 +371,20 @@
     },
     {
       "generic_name": "Paracetamol",
-      "category_slugs": ["analgesico", "antipiretico"],
+      "category_slugs": [
+        "analgesico",
+        "antipiretico"
+      ],
       "presentations": [
         {
           "form_slug": "gotas",
-          "concentration": ["200mg/ml"],
+          "concentration": [
+            "200mg/ml"
+          ],
           "default_recipe": {
-            "frequency": ["6/6"],
+            "frequency": [
+              "6/6"
+            ],
             "frequency_unit": "horas",
             "quantity": [],
             "quantity_unit": "gt",
@@ -176,11 +394,18 @@
         },
         {
           "form_slug": "comprimido",
-          "concentration": ["500mg", "750mg"],
+          "concentration": [
+            "500mg",
+            "750mg"
+          ],
           "default_recipe": {
-            "frequency": ["6/6"],
+            "frequency": [
+              "6/6"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -190,15 +415,25 @@
     },
     {
       "generic_name": "Simeticona",
-      "category_slugs": ["antiflatulento", "antigases"],
+      "category_slugs": [
+        "antiflatulento",
+        "antigases"
+      ],
       "presentations": [
         {
           "form_slug": "gotas",
-          "concentration": ["75mg/ml"],
+          "concentration": [
+            "75mg/ml"
+          ],
           "default_recipe": {
-            "frequency": ["8/8"],
+            "frequency": [
+              "8/8"
+            ],
             "frequency_unit": "horas",
-            "quantity": [5, 40],
+            "quantity": [
+              5,
+              40
+            ],
             "quantity_unit": "gt",
             "pediatric_calculation": null,
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -208,15 +443,25 @@
     },
     {
       "generic_name": "Dimenidrinato + Piridoxina (Dramin)",
-      "category_slugs": ["antiemetico", "antivertiginoso"],
+      "category_slugs": [
+        "antiemetico",
+        "antivertiginoso"
+      ],
       "presentations": [
         {
           "form_slug": "gotas",
-          "concentration": ["25mg+5mg/ml"],
+          "concentration": [
+            "25mg+5mg/ml"
+          ],
           "default_recipe": {
-            "frequency": ["6/6", "8/8"],
+            "frequency": [
+              "6/6",
+              "8/8"
+            ],
             "frequency_unit": "horas",
-            "quantity": [40],
+            "quantity": [
+              40
+            ],
             "quantity_unit": "gt",
             "pediatric_calculation": "1 gota/kg",
             "duration_text": "5 dias"
@@ -226,15 +471,24 @@
     },
     {
       "generic_name": "Bromoprida",
-      "category_slugs": ["procinetico", "antiemetico"],
+      "category_slugs": [
+        "procinetico",
+        "antiemetico"
+      ],
       "presentations": [
         {
           "form_slug": "gotas",
-          "concentration": ["4mg/ml"],
+          "concentration": [
+            "4mg/ml"
+          ],
           "default_recipe": {
-            "frequency": ["8/8"],
+            "frequency": [
+              "8/8"
+            ],
             "frequency_unit": "horas",
-            "quantity": [40],
+            "quantity": [
+              40
+            ],
             "quantity_unit": "gt",
             "pediatric_calculation": "1 gota/kg",
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -244,13 +498,20 @@
     },
     {
       "generic_name": "Tramadol",
-      "category_slugs": ["analgesico", "analgesico_opioide"],
+      "category_slugs": [
+        "analgesico",
+        "analgesico_opioide"
+      ],
       "presentations": [
         {
           "form_slug": "gotas",
-          "concentration": ["50mg/ml"],
+          "concentration": [
+            "50mg/ml"
+          ],
           "default_recipe": {
-            "frequency": ["6/6"],
+            "frequency": [
+              "6/6"
+            ],
             "frequency_unit": "horas",
             "quantity": [],
             "quantity_unit": "gt",
@@ -262,15 +523,23 @@
     },
     {
       "generic_name": "Escopolamina (Buscopan)",
-      "category_slugs": ["antiespasmodico"],
+      "category_slugs": [
+        "antiespasmodico"
+      ],
       "presentations": [
         {
           "form_slug": "gotas",
-          "concentration": ["10mg/ml"],
+          "concentration": [
+            "10mg/ml"
+          ],
           "default_recipe": {
-            "frequency": ["8/8"],
+            "frequency": [
+              "8/8"
+            ],
             "frequency_unit": "horas",
-            "quantity": [40],
+            "quantity": [
+              40
+            ],
             "quantity_unit": "gt",
             "pediatric_calculation": null,
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -278,11 +547,17 @@
         },
         {
           "form_slug": "comprimido",
-          "concentration": ["10mg"],
+          "concentration": [
+            "10mg"
+          ],
           "default_recipe": {
-            "frequency": ["8/8"],
+            "frequency": [
+              "8/8"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -292,15 +567,23 @@
     },
     {
       "generic_name": "Cerumin",
-      "category_slugs": ["ceruminolitico"],
+      "category_slugs": [
+        "ceruminolitico"
+      ],
       "presentations": [
         {
           "form_slug": "gotas",
-          "concentration": ["solução otológica"],
+          "concentration": [
+            "solução otológica"
+          ],
           "default_recipe": {
-            "frequency": ["8/8"],
+            "frequency": [
+              "8/8"
+            ],
             "frequency_unit": "horas",
-            "quantity": [5],
+            "quantity": [
+              5
+            ],
             "quantity_unit": "gt",
             "pediatric_calculation": null,
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -310,15 +593,25 @@
     },
     {
       "generic_name": "Otosporin",
-      "category_slugs": ["antibiotico_otologico", "analgesico_otologico", "corticoide_otologico"],
+      "category_slugs": [
+        "antibiotico_otologico",
+        "analgesico_otologico",
+        "corticoide_otologico"
+      ],
       "presentations": [
         {
           "form_slug": "gotas",
-          "concentration": ["solução otológica"],
+          "concentration": [
+            "solução otológica"
+          ],
           "default_recipe": {
-            "frequency": ["8/8"],
+            "frequency": [
+              "8/8"
+            ],
             "frequency_unit": "horas",
-            "quantity": [2],
+            "quantity": [
+              2
+            ],
             "quantity_unit": "gt",
             "pediatric_calculation": null,
             "duration_text": "7 dias"
@@ -328,15 +621,24 @@
     },
     {
       "generic_name": "Diclofenaco",
-      "category_slugs": ["analgesico", "anti_inflamatorio"],
+      "category_slugs": [
+        "analgesico",
+        "anti_inflamatorio"
+      ],
       "presentations": [
         {
           "form_slug": "comprimido",
-          "concentration": ["50mg"],
+          "concentration": [
+            "50mg"
+          ],
           "default_recipe": {
-            "frequency": ["8/8"],
+            "frequency": [
+              "8/8"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "5 dias"
@@ -344,11 +646,17 @@
         },
         {
           "form_slug": "injetavel",
-          "concentration": ["Ampola"],
+          "concentration": [
+            "Ampola"
+          ],
           "default_recipe": {
-            "frequency": ["dose única"],
+            "frequency": [
+              "dose única"
+            ],
             "frequency_unit": "dose única",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "amp",
             "pediatric_calculation": null,
             "duration_text": "imediato"
@@ -358,15 +666,23 @@
     },
     {
       "generic_name": "Azitromicina",
-      "category_slugs": ["antibiotico"],
+      "category_slugs": [
+        "antibiotico"
+      ],
       "presentations": [
         {
           "form_slug": "comprimido",
-          "concentration": ["500mg"],
+          "concentration": [
+            "500mg"
+          ],
           "default_recipe": {
-            "frequency": ["1"],
+            "frequency": [
+              "1"
+            ],
             "frequency_unit": "vezes ao dia",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "5 dias"
@@ -374,9 +690,13 @@
         },
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["200mg/5ml"],
+          "concentration": [
+            "200mg/5ml"
+          ],
           "default_recipe": {
-            "frequency": ["1"],
+            "frequency": [
+              "1"
+            ],
             "frequency_unit": "vezes ao dia",
             "quantity": [],
             "quantity_unit": "ml",
@@ -388,15 +708,23 @@
     },
     {
       "generic_name": "Ciprofloxacino",
-      "category_slugs": ["antibiotico"],
+      "category_slugs": [
+        "antibiotico"
+      ],
       "presentations": [
         {
           "form_slug": "comprimido",
-          "concentration": ["500mg"],
+          "concentration": [
+            "500mg"
+          ],
           "default_recipe": {
-            "frequency": ["12/12"],
+            "frequency": [
+              "12/12"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "7 dias"
@@ -406,15 +734,23 @@
     },
     {
       "generic_name": "Cefalexina",
-      "category_slugs": ["antibiotico"],
+      "category_slugs": [
+        "antibiotico"
+      ],
       "presentations": [
         {
           "form_slug": "comprimido",
-          "concentration": ["500mg"],
+          "concentration": [
+            "500mg"
+          ],
           "default_recipe": {
-            "frequency": ["6/6"],
+            "frequency": [
+              "6/6"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "7 dias"
@@ -422,9 +758,13 @@
         },
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["250mg/5ml"],
+          "concentration": [
+            "250mg/5ml"
+          ],
           "default_recipe": {
-            "frequency": ["6/6"],
+            "frequency": [
+              "6/6"
+            ],
             "frequency_unit": "horas",
             "quantity": [],
             "quantity_unit": "ml",
@@ -436,15 +776,25 @@
     },
     {
       "generic_name": "Prednisona",
-      "category_slugs": ["corticoide", "anti_inflamatorio"],
+      "category_slugs": [
+        "corticoide",
+        "anti_inflamatorio"
+      ],
       "presentations": [
         {
           "form_slug": "comprimido",
-          "concentration": ["20mg"],
+          "concentration": [
+            "20mg"
+          ],
           "default_recipe": {
-            "frequency": ["1 (pela manhã)"],
+            "frequency": [
+              "1 (pela manhã)"
+            ],
             "frequency_unit": "vezes ao dia",
-            "quantity": [1, 2],
+            "quantity": [
+              1,
+              2
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "3 dias, 5 dias"
@@ -454,15 +804,24 @@
     },
     {
       "generic_name": "Loratadina",
-      "category_slugs": ["anti_histaminico", "anti_alergico"],
+      "category_slugs": [
+        "anti_histaminico",
+        "anti_alergico"
+      ],
       "presentations": [
         {
           "form_slug": "comprimido",
-          "concentration": ["10mg"],
+          "concentration": [
+            "10mg"
+          ],
           "default_recipe": {
-            "frequency": ["1 (à noite)"],
+            "frequency": [
+              "1 (à noite)"
+            ],
             "frequency_unit": "vezes ao dia",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "5 dias, 7 dias"
@@ -470,11 +829,18 @@
         },
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["1mg/ml"],
+          "concentration": [
+            "1mg/ml"
+          ],
           "default_recipe": {
-            "frequency": ["1"],
+            "frequency": [
+              "1"
+            ],
             "frequency_unit": "vezes ao dia",
-            "quantity": [5, 10],
+            "quantity": [
+              5,
+              10
+            ],
             "quantity_unit": "ml",
             "pediatric_calculation": null,
             "duration_text": "5 dias, 7 dias"
@@ -484,15 +850,24 @@
     },
     {
       "generic_name": "Ebastina",
-      "category_slugs": ["anti_histaminico", "anti_alergico"],
+      "category_slugs": [
+        "anti_histaminico",
+        "anti_alergico"
+      ],
       "presentations": [
         {
           "form_slug": "comprimido",
-          "concentration": ["20mg"],
+          "concentration": [
+            "20mg"
+          ],
           "default_recipe": {
-            "frequency": ["12/12"],
+            "frequency": [
+              "12/12"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "5 dias"
@@ -502,15 +877,24 @@
     },
     {
       "generic_name": "Metoclopramida",
-      "category_slugs": ["procinetico", "antiemetico"],
+      "category_slugs": [
+        "procinetico",
+        "antiemetico"
+      ],
       "presentations": [
         {
           "form_slug": "comprimido",
-          "concentration": ["10mg"],
+          "concentration": [
+            "10mg"
+          ],
           "default_recipe": {
-            "frequency": ["8/8"],
+            "frequency": [
+              "8/8"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -520,15 +904,23 @@
     },
     {
       "generic_name": "Ondansetrona",
-      "category_slugs": ["antiemetico"],
+      "category_slugs": [
+        "antiemetico"
+      ],
       "presentations": [
         {
           "form_slug": "comprimido",
-          "concentration": ["8mg"],
+          "concentration": [
+            "8mg"
+          ],
           "default_recipe": {
-            "frequency": ["8/8"],
+            "frequency": [
+              "8/8"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -538,15 +930,25 @@
     },
     {
       "generic_name": "Ciclobenzaprina (Miosan)",
-      "category_slugs": ["relaxante_muscular"],
+      "category_slugs": [
+        "relaxante_muscular"
+      ],
       "presentations": [
         {
           "form_slug": "comprimido",
-          "concentration": ["5mg", "10mg"],
+          "concentration": [
+            "5mg",
+            "10mg"
+          ],
           "default_recipe": {
-            "frequency": ["1 (à noite)", "3"],
+            "frequency": [
+              "1 (à noite)",
+              "3"
+            ],
             "frequency_unit": "vezes ao dia",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "5 dias"
@@ -556,13 +958,19 @@
     },
     {
       "generic_name": "Ivermectina",
-      "category_slugs": ["antiparasitario"],
+      "category_slugs": [
+        "antiparasitario"
+      ],
       "presentations": [
         {
           "form_slug": "comprimido",
-          "concentration": ["6mg"],
+          "concentration": [
+            "6mg"
+          ],
           "default_recipe": {
-            "frequency": ["1"],
+            "frequency": [
+              "1"
+            ],
             "frequency_unit": "dose única",
             "quantity": [],
             "quantity_unit": "cp",
@@ -574,15 +982,25 @@
     },
     {
       "generic_name": "Sulfametoxazol Trimetropina",
-      "category_slugs": ["antibiotico"],
+      "category_slugs": [
+        "antibiotico"
+      ],
       "presentations": [
         {
           "form_slug": "comprimido",
-          "concentration": ["400+80mg", "800+160mg"],
+          "concentration": [
+            "400+80mg",
+            "800+160mg"
+          ],
           "default_recipe": {
-            "frequency": ["12/12", "8/8"],
+            "frequency": [
+              "12/12",
+              "8/8"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "7 dias"
@@ -590,9 +1008,13 @@
         },
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["200+40mg/5ml"],
+          "concentration": [
+            "200+40mg/5ml"
+          ],
           "default_recipe": {
-            "frequency": ["12/12"],
+            "frequency": [
+              "12/12"
+            ],
             "frequency_unit": "horas",
             "quantity": [],
             "quantity_unit": "ml",
@@ -604,15 +1026,25 @@
     },
     {
       "generic_name": "Naproxeno",
-      "category_slugs": ["analgesico", "antipiretico", "anti_inflamatorio"],
+      "category_slugs": [
+        "analgesico",
+        "antipiretico",
+        "anti_inflamatorio"
+      ],
       "presentations": [
         {
           "form_slug": "comprimido",
-          "concentration": ["500mg"],
+          "concentration": [
+            "500mg"
+          ],
           "default_recipe": {
-            "frequency": ["12/12"],
+            "frequency": [
+              "12/12"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "5 dias"
@@ -622,15 +1054,24 @@
     },
     {
       "generic_name": "Sumatriptano",
-      "category_slugs": ["antienxaquecoso", "vasoconstritor"],
+      "category_slugs": [
+        "antienxaquecoso",
+        "vasoconstritor"
+      ],
       "presentations": [
         {
           "form_slug": "comprimido",
-          "concentration": ["50mg"],
+          "concentration": [
+            "50mg"
+          ],
           "default_recipe": {
-            "frequency": ["12/12"],
+            "frequency": [
+              "12/12"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "1 dia"
@@ -640,15 +1081,23 @@
     },
     {
       "generic_name": "Racecadotrila (Tiorfan)",
-      "category_slugs": ["antidiarreico"],
+      "category_slugs": [
+        "antidiarreico"
+      ],
       "presentations": [
         {
           "form_slug": "comprimido",
-          "concentration": ["100mg"],
+          "concentration": [
+            "100mg"
+          ],
           "default_recipe": {
-            "frequency": ["8/8"],
+            "frequency": [
+              "8/8"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "até cessar diarreia (max 7 dias)"
@@ -658,15 +1107,24 @@
     },
     {
       "generic_name": "Omeprazol",
-      "category_slugs": ["inibidor_de_bomba_de_protons", "antiulceroso"],
+      "category_slugs": [
+        "inibidor_de_bomba_de_protons",
+        "antiulceroso"
+      ],
       "presentations": [
         {
           "form_slug": "comprimido",
-          "concentration": ["20mg"],
+          "concentration": [
+            "20mg"
+          ],
           "default_recipe": {
-            "frequency": ["1 (jejum)"],
+            "frequency": [
+              "1 (jejum)"
+            ],
             "frequency_unit": "vezes ao dia",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "10 dias, 30 dias"
@@ -676,15 +1134,25 @@
     },
     {
       "generic_name": "Paracetamol + Codeína (Tylex)",
-      "category_slugs": ["analgesico", "analgesico_opioide"],
+      "category_slugs": [
+        "analgesico",
+        "analgesico_opioide"
+      ],
       "presentations": [
         {
           "form_slug": "comprimido",
-          "concentration": ["500mg + 7.5mg", "500mg + 30mg"],
+          "concentration": [
+            "500mg + 7.5mg",
+            "500mg + 30mg"
+          ],
           "default_recipe": {
-            "frequency": ["4/4"],
+            "frequency": [
+              "4/4"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -694,15 +1162,24 @@
     },
     {
       "generic_name": "Nitrofurantoina",
-      "category_slugs": ["antibiotico", "antisseptico_urinario"],
+      "category_slugs": [
+        "antibiotico",
+        "antisseptico_urinario"
+      ],
       "presentations": [
         {
           "form_slug": "comprimido",
-          "concentration": ["100mg"],
+          "concentration": [
+            "100mg"
+          ],
           "default_recipe": {
-            "frequency": ["6/6"],
+            "frequency": [
+              "6/6"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "7 dias"
@@ -712,15 +1189,23 @@
     },
     {
       "generic_name": "Tansulosina",
-      "category_slugs": ["bloqueador_alfa_adrenergico"],
+      "category_slugs": [
+        "bloqueador_alfa_adrenergico"
+      ],
       "presentations": [
         {
           "form_slug": "comprimido",
-          "concentration": ["0.4mg"],
+          "concentration": [
+            "0.4mg"
+          ],
           "default_recipe": {
-            "frequency": ["1 (à noite)"],
+            "frequency": [
+              "1 (à noite)"
+            ],
             "frequency_unit": "vezes ao dia",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "30 dias"
@@ -730,15 +1215,24 @@
     },
     {
       "generic_name": "Etoricoxibe (Ecoxe)",
-      "category_slugs": ["analgesico", "anti_inflamatorio"],
+      "category_slugs": [
+        "analgesico",
+        "anti_inflamatorio"
+      ],
       "presentations": [
         {
           "form_slug": "comprimido",
-          "concentration": ["90mg"],
+          "concentration": [
+            "90mg"
+          ],
           "default_recipe": {
-            "frequency": ["1"],
+            "frequency": [
+              "1"
+            ],
             "frequency_unit": "vezes ao dia",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "5 dias"
@@ -748,15 +1242,24 @@
     },
     {
       "generic_name": "Flunarizina",
-      "category_slugs": ["antivertiginoso", "bloqueador_canal_calcio"],
+      "category_slugs": [
+        "antivertiginoso",
+        "bloqueador_canal_calcio"
+      ],
       "presentations": [
         {
           "form_slug": "comprimido",
-          "concentration": ["10mg"],
+          "concentration": [
+            "10mg"
+          ],
           "default_recipe": {
-            "frequency": ["1 (à noite)"],
+            "frequency": [
+              "1 (à noite)"
+            ],
             "frequency_unit": "vezes ao dia",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "2 semanas"
@@ -766,15 +1269,24 @@
     },
     {
       "generic_name": "Valeriana Officinalis",
-      "category_slugs": ["fitoterapico", "ansiolitico"],
+      "category_slugs": [
+        "fitoterapico",
+        "ansiolitico"
+      ],
       "presentations": [
         {
           "form_slug": "comprimido",
-          "concentration": ["0.8mg a 3.5mg"],
+          "concentration": [
+            "0.8mg a 3.5mg"
+          ],
           "default_recipe": {
-            "frequency": ["12/12"],
+            "frequency": [
+              "12/12"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "cp",
             "pediatric_calculation": null,
             "duration_text": "30 dias"
@@ -784,13 +1296,21 @@
     },
     {
       "generic_name": "Amoxicilina",
-      "category_slugs": ["antibiotico"],
+      "category_slugs": [
+        "antibiotico"
+      ],
       "presentations": [
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["250mg/5ml", "400mg/5ml"],
+          "concentration": [
+            "250mg/5ml",
+            "400mg/5ml"
+          ],
           "default_recipe": {
-            "frequency": ["8/8", "12/12"],
+            "frequency": [
+              "8/8",
+              "12/12"
+            ],
             "frequency_unit": "horas",
             "quantity": [],
             "quantity_unit": "ml",
@@ -802,13 +1322,19 @@
     },
     {
       "generic_name": "Amoxicilina + Clavulanato",
-      "category_slugs": ["antibiotico"],
+      "category_slugs": [
+        "antibiotico"
+      ],
       "presentations": [
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["250mg+62,5mg/5ml"],
+          "concentration": [
+            "250mg+62,5mg/5ml"
+          ],
           "default_recipe": {
-            "frequency": ["8/8"],
+            "frequency": [
+              "8/8"
+            ],
             "frequency_unit": "horas",
             "quantity": [],
             "quantity_unit": "ml",
@@ -820,13 +1346,20 @@
     },
     {
       "generic_name": "Prednisolona",
-      "category_slugs": ["corticoide", "anti_inflamatorio"],
+      "category_slugs": [
+        "corticoide",
+        "anti_inflamatorio"
+      ],
       "presentations": [
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["3mg/ml"],
+          "concentration": [
+            "3mg/ml"
+          ],
           "default_recipe": {
-            "frequency": ["1"],
+            "frequency": [
+              "1"
+            ],
             "frequency_unit": "vezes ao dia",
             "quantity": [],
             "quantity_unit": "ml",
@@ -838,15 +1371,24 @@
     },
     {
       "generic_name": "Dexclorfeniramina",
-      "category_slugs": ["anti_histaminico", "anti_alergico"],
+      "category_slugs": [
+        "anti_histaminico",
+        "anti_alergico"
+      ],
       "presentations": [
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["2mg/5ml"],
+          "concentration": [
+            "2mg/5ml"
+          ],
           "default_recipe": {
-            "frequency": ["8/8"],
+            "frequency": [
+              "8/8"
+            ],
             "frequency_unit": "horas",
-            "quantity": [5],
+            "quantity": [
+              5
+            ],
             "quantity_unit": "ml",
             "pediatric_calculation": null,
             "duration_text": "5 dias"
@@ -856,13 +1398,22 @@
     },
     {
       "generic_name": "Hidroxizina",
-      "category_slugs": ["anti_histaminico", "anti_alergico", "antipruriginoso"],
+      "category_slugs": [
+        "anti_histaminico",
+        "anti_alergico",
+        "antipruriginoso"
+      ],
       "presentations": [
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["2mg/ml", "25mg/ml"],
+          "concentration": [
+            "2mg/ml",
+            "25mg/ml"
+          ],
           "default_recipe": {
-            "frequency": ["8/8"],
+            "frequency": [
+              "8/8"
+            ],
             "frequency_unit": "horas",
             "quantity": [],
             "quantity_unit": "ml",
@@ -874,15 +1425,27 @@
     },
     {
       "generic_name": "Desloratadina",
-      "category_slugs": ["anti_histaminico", "anti_alergico"],
+      "category_slugs": [
+        "anti_histaminico",
+        "anti_alergico"
+      ],
       "presentations": [
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["0.5mg/ml"],
+          "concentration": [
+            "0.5mg/ml"
+          ],
           "default_recipe": {
-            "frequency": ["1"],
+            "frequency": [
+              "1"
+            ],
             "frequency_unit": "vezes ao dia",
-            "quantity": [2, 2.5, 5, 10],
+            "quantity": [
+              2,
+              2.5,
+              5,
+              10
+            ],
             "quantity_unit": "ml",
             "pediatric_calculation": null,
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -892,15 +1455,25 @@
     },
     {
       "generic_name": "Fexofenadina (Allegra)",
-      "category_slugs": ["anti_histaminico", "anti_alergico"],
+      "category_slugs": [
+        "anti_histaminico",
+        "anti_alergico"
+      ],
       "presentations": [
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["variável"],
+          "concentration": [
+            "variável"
+          ],
           "default_recipe": {
-            "frequency": ["12/12"],
+            "frequency": [
+              "12/12"
+            ],
             "frequency_unit": "horas",
-            "quantity": [2.5, 5],
+            "quantity": [
+              2.5,
+              5
+            ],
             "quantity_unit": "ml",
             "pediatric_calculation": null,
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -910,15 +1483,25 @@
     },
     {
       "generic_name": "Lactulose",
-      "category_slugs": ["laxante"],
+      "category_slugs": [
+        "laxante"
+      ],
       "presentations": [
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["667mg/ml"],
+          "concentration": [
+            "667mg/ml"
+          ],
           "default_recipe": {
-            "frequency": ["12/12"],
+            "frequency": [
+              "12/12"
+            ],
             "frequency_unit": "horas",
-            "quantity": [5, 10, 15],
+            "quantity": [
+              5,
+              10,
+              15
+            ],
             "quantity_unit": "ml",
             "pediatric_calculation": null,
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -928,15 +1511,23 @@
     },
     {
       "generic_name": "Oleo Mineral",
-      "category_slugs": ["laxante"],
+      "category_slugs": [
+        "laxante"
+      ],
       "presentations": [
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["oleo"],
+          "concentration": [
+            "oleo"
+          ],
           "default_recipe": {
-            "frequency": ["12/12"],
+            "frequency": [
+              "12/12"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "ml",
             "pediatric_calculation": null,
             "duration_text": "30 dias"
@@ -946,13 +1537,20 @@
     },
     {
       "generic_name": "Acebrofilina",
-      "category_slugs": ["broncodilatador", "expectorante"],
+      "category_slugs": [
+        "broncodilatador",
+        "expectorante"
+      ],
       "presentations": [
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["5mg/ml"],
+          "concentration": [
+            "5mg/ml"
+          ],
           "default_recipe": {
-            "frequency": ["12/12"],
+            "frequency": [
+              "12/12"
+            ],
             "frequency_unit": "horas",
             "quantity": [],
             "quantity_unit": "ml",
@@ -964,15 +1562,27 @@
     },
     {
       "generic_name": "Ambroxol",
-      "category_slugs": ["expectorante", "mucolitico"],
+      "category_slugs": [
+        "expectorante",
+        "mucolitico"
+      ],
       "presentations": [
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["15mg/5ml", "3mg/ml"],
+          "concentration": [
+            "15mg/5ml",
+            "3mg/ml"
+          ],
           "default_recipe": {
-            "frequency": ["8/8", "12/12"],
+            "frequency": [
+              "8/8",
+              "12/12"
+            ],
             "frequency_unit": "horas",
-            "quantity": [2.5, 5],
+            "quantity": [
+              2.5,
+              5
+            ],
             "quantity_unit": "ml",
             "pediatric_calculation": null,
             "duration_text": "5 dias"
@@ -982,15 +1592,25 @@
     },
     {
       "generic_name": "Acetilcisteina",
-      "category_slugs": ["expectorante", "mucolitico"],
+      "category_slugs": [
+        "expectorante",
+        "mucolitico"
+      ],
       "presentations": [
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["20mg/ml"],
+          "concentration": [
+            "20mg/ml"
+          ],
           "default_recipe": {
-            "frequency": ["12/12", "8/8"],
+            "frequency": [
+              "12/12",
+              "8/8"
+            ],
             "frequency_unit": "horas",
-            "quantity": [5],
+            "quantity": [
+              5
+            ],
             "quantity_unit": "ml",
             "pediatric_calculation": null,
             "duration_text": "5 dias"
@@ -1000,15 +1620,25 @@
     },
     {
       "generic_name": "Levodropropizina",
-      "category_slugs": ["antitussigeno"],
+      "category_slugs": [
+        "antitussigeno"
+      ],
       "presentations": [
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["30mg/5ml"],
+          "concentration": [
+            "30mg/5ml"
+          ],
           "default_recipe": {
-            "frequency": ["8/8"],
+            "frequency": [
+              "8/8"
+            ],
             "frequency_unit": "horas",
-            "quantity": [3, 5, 10],
+            "quantity": [
+              3,
+              5,
+              10
+            ],
             "quantity_unit": "ml",
             "pediatric_calculation": "peso/6 ml",
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -1018,13 +1648,20 @@
     },
     {
       "generic_name": "Claritromicina",
-      "category_slugs": ["antibiotico"],
+      "category_slugs": [
+        "antibiotico"
+      ],
       "presentations": [
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["125mg/5ml", "250mg/5ml"],
+          "concentration": [
+            "125mg/5ml",
+            "250mg/5ml"
+          ],
           "default_recipe": {
-            "frequency": ["12/12"],
+            "frequency": [
+              "12/12"
+            ],
             "frequency_unit": "horas",
             "quantity": [],
             "quantity_unit": "ml",
@@ -1036,15 +1673,24 @@
     },
     {
       "generic_name": "Albendazol",
-      "category_slugs": ["antiparasitario", "antihelmintico"],
+      "category_slugs": [
+        "antiparasitario",
+        "antihelmintico"
+      ],
       "presentations": [
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["40mg/ml"],
+          "concentration": [
+            "40mg/ml"
+          ],
           "default_recipe": {
-            "frequency": ["1"],
+            "frequency": [
+              "1"
+            ],
             "frequency_unit": "vezes ao dia",
-            "quantity": [10],
+            "quantity": [
+              10
+            ],
             "quantity_unit": "ml",
             "pediatric_calculation": null,
             "duration_text": "5 dias"
@@ -1054,15 +1700,23 @@
     },
     {
       "generic_name": "Enterogermina",
-      "category_slugs": ["probiotico"],
+      "category_slugs": [
+        "probiotico"
+      ],
       "presentations": [
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["solução oral"],
+          "concentration": [
+            "solução oral"
+          ],
           "default_recipe": {
-            "frequency": ["12/12"],
+            "frequency": [
+              "12/12"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "ml",
             "pediatric_calculation": null,
             "duration_text": "5 dias"
@@ -1072,15 +1726,23 @@
     },
     {
       "generic_name": "Florax",
-      "category_slugs": ["probiotico"],
+      "category_slugs": [
+        "probiotico"
+      ],
       "presentations": [
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["flaconete"],
+          "concentration": [
+            "flaconete"
+          ],
           "default_recipe": {
-            "frequency": ["12/12"],
+            "frequency": [
+              "12/12"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "ml",
             "pediatric_calculation": null,
             "duration_text": "5 dias"
@@ -1090,15 +1752,25 @@
     },
     {
       "generic_name": "Sulfato De Zinco",
-      "category_slugs": ["suplemento_mineral"],
+      "category_slugs": [
+        "suplemento_mineral"
+      ],
       "presentations": [
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["4mg/ml", "20mg/ml"],
+          "concentration": [
+            "4mg/ml",
+            "20mg/ml"
+          ],
           "default_recipe": {
-            "frequency": ["1"],
+            "frequency": [
+              "1"
+            ],
             "frequency_unit": "vezes ao dia",
-            "quantity": [2.5, 5],
+            "quantity": [
+              2.5,
+              5
+            ],
             "quantity_unit": "ml",
             "pediatric_calculation": null,
             "duration_text": "10 dias"
@@ -1108,15 +1780,26 @@
     },
     {
       "generic_name": "Hedera Helix",
-      "category_slugs": ["fitoterapico", "expectorante"],
+      "category_slugs": [
+        "fitoterapico",
+        "expectorante"
+      ],
       "presentations": [
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["xarope"],
+          "concentration": [
+            "xarope"
+          ],
           "default_recipe": {
-            "frequency": ["8/8"],
+            "frequency": [
+              "8/8"
+            ],
             "frequency_unit": "horas",
-            "quantity": [2.5, 5, 10],
+            "quantity": [
+              2.5,
+              5,
+              10
+            ],
             "quantity_unit": "ml",
             "pediatric_calculation": null,
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -1126,15 +1809,25 @@
     },
     {
       "generic_name": "Vick 44E",
-      "category_slugs": ["expectorante", "antitussigeno"],
+      "category_slugs": [
+        "expectorante",
+        "antitussigeno"
+      ],
       "presentations": [
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["xarope"],
+          "concentration": [
+            "xarope"
+          ],
           "default_recipe": {
-            "frequency": ["4/4", "6/6"],
+            "frequency": [
+              "4/4",
+              "6/6"
+            ],
             "frequency_unit": "horas",
-            "quantity": [15],
+            "quantity": [
+              15
+            ],
             "quantity_unit": "ml",
             "pediatric_calculation": null,
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -1144,15 +1837,23 @@
     },
     {
       "generic_name": "Hidroxido De Aluminio",
-      "category_slugs": ["antiacido"],
+      "category_slugs": [
+        "antiacido"
+      ],
       "presentations": [
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["suspensão"],
+          "concentration": [
+            "suspensão"
+          ],
           "default_recipe": {
-            "frequency": ["1"],
+            "frequency": [
+              "1"
+            ],
             "frequency_unit": "após refeições",
-            "quantity": [10],
+            "quantity": [
+              10
+            ],
             "quantity_unit": "ml",
             "pediatric_calculation": null,
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -1162,15 +1863,26 @@
     },
     {
       "generic_name": "Nistatina",
-      "category_slugs": ["antifungico"],
+      "category_slugs": [
+        "antifungico"
+      ],
       "presentations": [
         {
           "form_slug": "xarope_suspensao",
-          "concentration": ["solução oral"],
+          "concentration": [
+            "solução oral"
+          ],
           "default_recipe": {
-            "frequency": ["6/6"],
+            "frequency": [
+              "6/6"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1, 2, 3, 5],
+            "quantity": [
+              1,
+              2,
+              3,
+              5
+            ],
             "quantity_unit": "ml",
             "pediatric_calculation": null,
             "duration_text": "5-14 dias"
@@ -1180,13 +1892,22 @@
     },
     {
       "generic_name": "Mupirocina",
-      "category_slugs": ["antibiotico_topico"],
+      "category_slugs": [
+        "antibiotico_topico"
+      ],
       "presentations": [
         {
           "form_slug": "topico_creme",
-          "concentration": ["2%", "20mg/g"],
+          "concentration": [
+            "2%",
+            "20mg/g"
+          ],
           "default_recipe": {
-            "frequency": ["2", "3", "8/8"],
+            "frequency": [
+              "2",
+              "3",
+              "8/8"
+            ],
             "frequency_unit": "vezes ao dia",
             "quantity": [],
             "quantity_unit": "aplicação",
@@ -1198,13 +1919,20 @@
     },
     {
       "generic_name": "Neomicina Bacitracina",
-      "category_slugs": ["antibiotico_topico"],
+      "category_slugs": [
+        "antibiotico_topico"
+      ],
       "presentations": [
         {
           "form_slug": "topico_creme",
-          "concentration": ["pomada"],
+          "concentration": [
+            "pomada"
+          ],
           "default_recipe": {
-            "frequency": ["8/8", "3"],
+            "frequency": [
+              "8/8",
+              "3"
+            ],
             "frequency_unit": "horas",
             "quantity": [],
             "quantity_unit": "aplicação",
@@ -1216,13 +1944,19 @@
     },
     {
       "generic_name": "Nebacetin",
-      "category_slugs": ["antibiotico_topico"],
+      "category_slugs": [
+        "antibiotico_topico"
+      ],
       "presentations": [
         {
           "form_slug": "topico_creme",
-          "concentration": ["pomada"],
+          "concentration": [
+            "pomada"
+          ],
           "default_recipe": {
-            "frequency": ["3"],
+            "frequency": [
+              "3"
+            ],
             "frequency_unit": "vezes ao dia",
             "quantity": [],
             "quantity_unit": "aplicação",
@@ -1234,13 +1968,19 @@
     },
     {
       "generic_name": "Cetoconazol",
-      "category_slugs": ["antifungico_topico"],
+      "category_slugs": [
+        "antifungico_topico"
+      ],
       "presentations": [
         {
           "form_slug": "topico_creme",
-          "concentration": ["2% creme"],
+          "concentration": [
+            "2% creme"
+          ],
           "default_recipe": {
-            "frequency": ["12/12"],
+            "frequency": [
+              "12/12"
+            ],
             "frequency_unit": "horas",
             "quantity": [],
             "quantity_unit": "aplicação",
@@ -1252,13 +1992,20 @@
     },
     {
       "generic_name": "Sulfeto De Selenio",
-      "category_slugs": ["antifungico_topico", "antiseborreico"],
+      "category_slugs": [
+        "antifungico_topico",
+        "antiseborreico"
+      ],
       "presentations": [
         {
           "form_slug": "topico_creme",
-          "concentration": ["2.5% shampoo"],
+          "concentration": [
+            "2.5% shampoo"
+          ],
           "default_recipe": {
-            "frequency": ["1"],
+            "frequency": [
+              "1"
+            ],
             "frequency_unit": "vezes ao dia",
             "quantity": [],
             "quantity_unit": "aplicação",
@@ -1270,13 +2017,21 @@
     },
     {
       "generic_name": "Permetrina",
-      "category_slugs": ["escabicida", "pediculicida"],
+      "category_slugs": [
+        "escabicida",
+        "pediculicida"
+      ],
       "presentations": [
         {
           "form_slug": "topico_creme",
-          "concentration": ["1% (capilar)", "5% (loção corporal)"],
+          "concentration": [
+            "1% (capilar)",
+            "5% (loção corporal)"
+          ],
           "default_recipe": {
-            "frequency": ["1 (repetir em 7 dias)"],
+            "frequency": [
+              "1 (repetir em 7 dias)"
+            ],
             "frequency_unit": "vezes ao dia",
             "quantity": [],
             "quantity_unit": "aplicação",
@@ -1288,13 +2043,20 @@
     },
     {
       "generic_name": "Enxofre Precipitado",
-      "category_slugs": ["escabicida", "antisseptico_topico"],
+      "category_slugs": [
+        "escabicida",
+        "antisseptico_topico"
+      ],
       "presentations": [
         {
           "form_slug": "topico_creme",
-          "concentration": ["2-6% creme/loção"],
+          "concentration": [
+            "2-6% creme/loção"
+          ],
           "default_recipe": {
-            "frequency": ["1 (à noite)"],
+            "frequency": [
+              "1 (à noite)"
+            ],
             "frequency_unit": "vezes ao dia",
             "quantity": [],
             "quantity_unit": "aplicação",
@@ -1306,13 +2068,22 @@
     },
     {
       "generic_name": "Dexametasona",
-      "category_slugs": ["corticoide", "anti_inflamatorio", "corticoide_topico", "anti_inflamatorio_topico"],
+      "category_slugs": [
+        "corticoide",
+        "anti_inflamatorio",
+        "corticoide_topico",
+        "anti_inflamatorio_topico"
+      ],
       "presentations": [
         {
           "form_slug": "topico_creme",
-          "concentration": ["1mg/g"],
+          "concentration": [
+            "1mg/g"
+          ],
           "default_recipe": {
-            "frequency": ["2"],
+            "frequency": [
+              "2"
+            ],
             "frequency_unit": "vezes ao dia",
             "quantity": [],
             "quantity_unit": "aplicação",
@@ -1322,11 +2093,15 @@
         },
         {
           "form_slug": "injetavel",
-          "concentration": ["Ampola"],
+          "concentration": [
+            "Ampola"
+          ],
           "default_recipe": {
             "frequency": [],
             "frequency_unit": "Conforme orientação",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "amp",
             "pediatric_calculation": "peso x 0.15",
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -1336,13 +2111,22 @@
     },
     {
       "generic_name": "Hidrocortisona",
-      "category_slugs": ["corticoide", "anti_inflamatorio", "corticoide_topico", "anti_inflamatorio_topico"],
+      "category_slugs": [
+        "corticoide",
+        "anti_inflamatorio",
+        "corticoide_topico",
+        "anti_inflamatorio_topico"
+      ],
       "presentations": [
         {
           "form_slug": "topico_creme",
-          "concentration": ["1%"],
+          "concentration": [
+            "1%"
+          ],
           "default_recipe": {
-            "frequency": ["12/12"],
+            "frequency": [
+              "12/12"
+            ],
             "frequency_unit": "horas",
             "quantity": [],
             "quantity_unit": "aplicação",
@@ -1352,7 +2136,9 @@
         },
         {
           "form_slug": "injetavel",
-          "concentration": ["Injetável"],
+          "concentration": [
+            "Injetável"
+          ],
           "default_recipe": {
             "frequency": [],
             "frequency_unit": "Conforme orientação",
@@ -1366,13 +2152,21 @@
     },
     {
       "generic_name": "Trok N",
-      "category_slugs": ["antibiotico_topico", "antifungico_topico", "corticoide_topico"],
+      "category_slugs": [
+        "antibiotico_topico",
+        "antifungico_topico",
+        "corticoide_topico"
+      ],
       "presentations": [
         {
           "form_slug": "topico_creme",
-          "concentration": ["pomada"],
+          "concentration": [
+            "pomada"
+          ],
           "default_recipe": {
-            "frequency": ["2"],
+            "frequency": [
+              "2"
+            ],
             "frequency_unit": "vezes ao dia",
             "quantity": [],
             "quantity_unit": "aplicação",
@@ -1384,13 +2178,21 @@
     },
     {
       "generic_name": "Nistatina + Oxido Zinco",
-      "category_slugs": ["antifungico_topico", "protetor_de_pele"],
+      "category_slugs": [
+        "antifungico_topico",
+        "protetor_de_pele"
+      ],
       "presentations": [
         {
           "form_slug": "topico_creme",
-          "concentration": ["pomada"],
+          "concentration": [
+            "pomada"
+          ],
           "default_recipe": {
-            "frequency": ["1", "12/12"],
+            "frequency": [
+              "1",
+              "12/12"
+            ],
             "frequency_unit": "a cada troca",
             "quantity": [],
             "quantity_unit": "aplicação",
@@ -1402,13 +2204,19 @@
     },
     {
       "generic_name": "Betametasona Hialuronidase",
-      "category_slugs": ["corticoide_topico"],
+      "category_slugs": [
+        "corticoide_topico"
+      ],
       "presentations": [
         {
           "form_slug": "topico_creme",
-          "concentration": ["pomada"],
+          "concentration": [
+            "pomada"
+          ],
           "default_recipe": {
-            "frequency": ["12/12"],
+            "frequency": [
+              "12/12"
+            ],
             "frequency_unit": "horas",
             "quantity": [],
             "quantity_unit": "aplicação",
@@ -1420,13 +2228,19 @@
     },
     {
       "generic_name": "Triancinolona Acetonida",
-      "category_slugs": ["corticoide_topico_oral"],
+      "category_slugs": [
+        "corticoide_topico_oral"
+      ],
       "presentations": [
         {
           "form_slug": "topico_creme",
-          "concentration": ["1mg/g"],
+          "concentration": [
+            "1mg/g"
+          ],
           "default_recipe": {
-            "frequency": ["8/8"],
+            "frequency": [
+              "8/8"
+            ],
             "frequency_unit": "horas",
             "quantity": [],
             "quantity_unit": "aplicação",
@@ -1438,13 +2252,20 @@
     },
     {
       "generic_name": "Creme De Ureia",
-      "category_slugs": ["hidratante", "queratolitico"],
+      "category_slugs": [
+        "hidratante",
+        "queratolitico"
+      ],
       "presentations": [
         {
           "form_slug": "topico_creme",
-          "concentration": ["0.2g/g"],
+          "concentration": [
+            "0.2g/g"
+          ],
           "default_recipe": {
-            "frequency": ["8/8"],
+            "frequency": [
+              "8/8"
+            ],
             "frequency_unit": "horas",
             "quantity": [],
             "quantity_unit": "aplicação",
@@ -1456,13 +2277,20 @@
     },
     {
       "generic_name": "Age Acidos Graxos",
-      "category_slugs": ["cicatrizante", "hidratante"],
+      "category_slugs": [
+        "cicatrizante",
+        "hidratante"
+      ],
       "presentations": [
         {
           "form_slug": "topico_creme",
-          "concentration": ["tópico"],
+          "concentration": [
+            "tópico"
+          ],
           "default_recipe": {
-            "frequency": ["8/8"],
+            "frequency": [
+              "8/8"
+            ],
             "frequency_unit": "horas",
             "quantity": [],
             "quantity_unit": "aplicação",
@@ -1474,13 +2302,20 @@
     },
     {
       "generic_name": "Flogoral Spray",
-      "category_slugs": ["anestesico_local", "anti_inflamatorio_topico"],
+      "category_slugs": [
+        "anestesico_local",
+        "anti_inflamatorio_topico"
+      ],
       "presentations": [
         {
           "form_slug": "topico_creme",
-          "concentration": ["spray"],
+          "concentration": [
+            "spray"
+          ],
           "default_recipe": {
-            "frequency": ["8/8"],
+            "frequency": [
+              "8/8"
+            ],
             "frequency_unit": "horas",
             "quantity": [],
             "quantity_unit": "aplicação",
@@ -1492,13 +2327,19 @@
     },
     {
       "generic_name": "Permanganato De Potassio",
-      "category_slugs": ["antisseptico_topico"],
+      "category_slugs": [
+        "antisseptico_topico"
+      ],
       "presentations": [
         {
           "form_slug": "topico_creme",
-          "concentration": ["100mg"],
+          "concentration": [
+            "100mg"
+          ],
           "default_recipe": {
-            "frequency": ["8/8"],
+            "frequency": [
+              "8/8"
+            ],
             "frequency_unit": "horas",
             "quantity": [],
             "quantity_unit": "aplicação",
@@ -1510,15 +2351,27 @@
     },
     {
       "generic_name": "Soro Fisiologico",
-      "category_slugs": ["solucao_salina", "fluidificante"],
+      "category_slugs": [
+        "solucao_salina",
+        "fluidificante"
+      ],
       "presentations": [
         {
           "form_slug": "spray",
-          "concentration": ["0.9%"],
+          "concentration": [
+            "0.9%"
+          ],
           "default_recipe": {
-            "frequency": ["3", "4-5", "3/3"],
+            "frequency": [
+              "3",
+              "4-5",
+              "3/3"
+            ],
             "frequency_unit": "vezes ao dia",
-            "quantity": [5, 10],
+            "quantity": [
+              5,
+              10
+            ],
             "quantity_unit": "jato",
             "pediatric_calculation": null,
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -1528,15 +2381,25 @@
     },
     {
       "generic_name": "Budesonida",
-      "category_slugs": ["corticoide_nasal", "corticoide_inalatorio"],
+      "category_slugs": [
+        "corticoide_nasal",
+        "corticoide_inalatorio"
+      ],
       "presentations": [
         {
           "form_slug": "spray",
-          "concentration": ["50mcg (nasal)", "200mcg (inalatório)"],
+          "concentration": [
+            "50mcg (nasal)",
+            "200mcg (inalatório)"
+          ],
           "default_recipe": {
-            "frequency": ["12/12"],
+            "frequency": [
+              "12/12"
+            ],
             "frequency_unit": "horas",
-            "quantity": [2],
+            "quantity": [
+              2
+            ],
             "quantity_unit": "jato",
             "pediatric_calculation": null,
             "duration_text": "10 dias"
@@ -1546,13 +2409,20 @@
     },
     {
       "generic_name": "Beclometasona",
-      "category_slugs": ["corticoide_nasal", "corticoide_inalatorio"],
+      "category_slugs": [
+        "corticoide_nasal",
+        "corticoide_inalatorio"
+      ],
       "presentations": [
         {
           "form_slug": "spray",
-          "concentration": ["50mcg"],
+          "concentration": [
+            "50mcg"
+          ],
           "default_recipe": {
-            "frequency": ["12/12"],
+            "frequency": [
+              "12/12"
+            ],
             "frequency_unit": "horas",
             "quantity": [],
             "quantity_unit": "jato",
@@ -1564,15 +2434,24 @@
     },
     {
       "generic_name": "Salbutamol",
-      "category_slugs": ["broncodilatador"],
+      "category_slugs": [
+        "broncodilatador"
+      ],
       "presentations": [
         {
           "form_slug": "spray",
-          "concentration": ["100mcg/dose"],
+          "concentration": [
+            "100mcg/dose"
+          ],
           "default_recipe": {
-            "frequency": ["6/6", "4/4"],
+            "frequency": [
+              "6/6",
+              "4/4"
+            ],
             "frequency_unit": "horas",
-            "quantity": [4],
+            "quantity": [
+              4
+            ],
             "quantity_unit": "jato",
             "pediatric_calculation": null,
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -1582,15 +2461,25 @@
     },
     {
       "generic_name": "Budesonida + Formoterol (Symbicort)",
-      "category_slugs": ["broncodilatador", "corticoide_inalatorio"],
+      "category_slugs": [
+        "broncodilatador",
+        "corticoide_inalatorio"
+      ],
       "presentations": [
         {
           "form_slug": "spray",
-          "concentration": ["200mcg+6mcg"],
+          "concentration": [
+            "200mcg+6mcg"
+          ],
           "default_recipe": {
-            "frequency": ["8/8", "12/12"],
+            "frequency": [
+              "8/8",
+              "12/12"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "jato",
             "pediatric_calculation": null,
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -1600,15 +2489,27 @@
     },
     {
       "generic_name": "Tobramicina",
-      "category_slugs": ["antibiotico_oftalmico"],
+      "category_slugs": [
+        "antibiotico_oftalmico"
+      ],
       "presentations": [
         {
           "form_slug": "colirio",
-          "concentration": ["3mg/ml", "0.3%"],
+          "concentration": [
+            "3mg/ml",
+            "0.3%"
+          ],
           "default_recipe": {
-            "frequency": ["6/6", "4/4", "8/8"],
+            "frequency": [
+              "6/6",
+              "4/4",
+              "8/8"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1, 2],
+            "quantity": [
+              1,
+              2
+            ],
             "quantity_unit": "gt",
             "pediatric_calculation": null,
             "duration_text": "5 dias, 7 dias"
@@ -1618,15 +2519,24 @@
     },
     {
       "generic_name": "Tobramicina + Dexametasona",
-      "category_slugs": ["antibiotico_oftalmico", "corticoide_oftalmico"],
+      "category_slugs": [
+        "antibiotico_oftalmico",
+        "corticoide_oftalmico"
+      ],
       "presentations": [
         {
           "form_slug": "colirio",
-          "concentration": ["3+1mg/ml"],
+          "concentration": [
+            "3+1mg/ml"
+          ],
           "default_recipe": {
-            "frequency": ["4/4"],
+            "frequency": [
+              "4/4"
+            ],
             "frequency_unit": "horas",
-            "quantity": [2],
+            "quantity": [
+              2
+            ],
             "quantity_unit": "gt",
             "pediatric_calculation": null,
             "duration_text": "7 a 14 dias"
@@ -1636,15 +2546,24 @@
     },
     {
       "generic_name": "Carmelose Sodica",
-      "category_slugs": ["lubrificante_ocular"],
+      "category_slugs": [
+        "lubrificante_ocular"
+      ],
       "presentations": [
         {
           "form_slug": "colirio",
-          "concentration": ["0.5%"],
+          "concentration": [
+            "0.5%"
+          ],
           "default_recipe": {
-            "frequency": ["2/2", "8/8"],
+            "frequency": [
+              "2/2",
+              "8/8"
+            ],
             "frequency_unit": "horas",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "gt",
             "pediatric_calculation": null,
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -1654,13 +2573,19 @@
     },
     {
       "generic_name": "Hialuronato De Sodio",
-      "category_slugs": ["lubrificante_ocular"],
+      "category_slugs": [
+        "lubrificante_ocular"
+      ],
       "presentations": [
         {
           "form_slug": "colirio",
-          "concentration": ["0.15%"],
+          "concentration": [
+            "0.15%"
+          ],
           "default_recipe": {
-            "frequency": ["4"],
+            "frequency": [
+              "4"
+            ],
             "frequency_unit": "vezes ao dia",
             "quantity": [],
             "quantity_unit": "gt",
@@ -1672,15 +2597,23 @@
     },
     {
       "generic_name": "Ecofilm",
-      "category_slugs": ["lubrificante_ocular"],
+      "category_slugs": [
+        "lubrificante_ocular"
+      ],
       "presentations": [
         {
           "form_slug": "colirio",
-          "concentration": ["colirio"],
+          "concentration": [
+            "colirio"
+          ],
           "default_recipe": {
-            "frequency": ["4"],
+            "frequency": [
+              "4"
+            ],
             "frequency_unit": "vezes ao dia",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "gt",
             "pediatric_calculation": null,
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -1690,15 +2623,23 @@
     },
     {
       "generic_name": "Lacribell",
-      "category_slugs": ["lubrificante_ocular"],
+      "category_slugs": [
+        "lubrificante_ocular"
+      ],
       "presentations": [
         {
           "form_slug": "colirio",
-          "concentration": ["colirio"],
+          "concentration": [
+            "colirio"
+          ],
           "default_recipe": {
-            "frequency": ["5"],
+            "frequency": [
+              "5"
+            ],
             "frequency_unit": "vezes ao dia",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "gt",
             "pediatric_calculation": null,
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -1708,15 +2649,23 @@
     },
     {
       "generic_name": "Moxifloxacino",
-      "category_slugs": ["antibiotico_oftalmico"],
+      "category_slugs": [
+        "antibiotico_oftalmico"
+      ],
       "presentations": [
         {
           "form_slug": "colirio",
-          "concentration": ["0.5%"],
+          "concentration": [
+            "0.5%"
+          ],
           "default_recipe": {
-            "frequency": ["4"],
+            "frequency": [
+              "4"
+            ],
             "frequency_unit": "vezes ao dia",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "gt",
             "pediatric_calculation": null,
             "duration_text": "7 a 14 dias"
@@ -1726,15 +2675,24 @@
     },
     {
       "generic_name": "Sais Reidratacao Oral",
-      "category_slugs": ["reidratacao", "repositor_eletrolitico"],
+      "category_slugs": [
+        "reidratacao",
+        "repositor_eletrolitico"
+      ],
       "presentations": [
         {
           "form_slug": "sache",
-          "concentration": ["pó para solução"],
+          "concentration": [
+            "pó para solução"
+          ],
           "default_recipe": {
-            "frequency": ["ao longo do dia"],
+            "frequency": [
+              "ao longo do dia"
+            ],
             "frequency_unit": "após evacuações",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "sachê",
             "pediatric_calculation": null,
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -1744,15 +2702,23 @@
     },
     {
       "generic_name": "Fosfomicina",
-      "category_slugs": ["antibiotico"],
+      "category_slugs": [
+        "antibiotico"
+      ],
       "presentations": [
         {
           "form_slug": "sache",
-          "concentration": ["3g"],
+          "concentration": [
+            "3g"
+          ],
           "default_recipe": {
-            "frequency": ["dose única"],
+            "frequency": [
+              "dose única"
+            ],
             "frequency_unit": "dose única",
-            "quantity": [1],
+            "quantity": [
+              1
+            ],
             "quantity_unit": "sachê",
             "pediatric_calculation": null,
             "duration_text": "Uso contínuo ou conforme sintomas"
@@ -1762,13 +2728,19 @@
     },
     {
       "generic_name": "Macrogol",
-      "category_slugs": ["laxante_osmotico"],
+      "category_slugs": [
+        "laxante_osmotico"
+      ],
       "presentations": [
         {
           "form_slug": "sache",
-          "concentration": ["3350"],
+          "concentration": [
+            "3350"
+          ],
           "default_recipe": {
-            "frequency": ["1"],
+            "frequency": [
+              "1"
+            ],
             "frequency_unit": "vezes ao dia",
             "quantity": [],
             "quantity_unit": "sachê",
@@ -1780,11 +2752,16 @@
     },
     {
       "generic_name": "Metilprednisolona",
-      "category_slugs": ["corticoide", "anti_inflamatorio"],
+      "category_slugs": [
+        "corticoide",
+        "anti_inflamatorio"
+      ],
       "presentations": [
         {
           "form_slug": "injetavel",
-          "concentration": ["Injetável"],
+          "concentration": [
+            "Injetável"
+          ],
           "default_recipe": {
             "frequency": [],
             "frequency_unit": "Conforme orientação",
@@ -1798,11 +2775,17 @@
     },
     {
       "generic_name": "Adrenalina",
-      "category_slugs": ["vasopressor", "broncodilatador", "antineoplasico"],
+      "category_slugs": [
+        "vasopressor",
+        "broncodilatador",
+        "antineoplasico"
+      ],
       "presentations": [
         {
           "form_slug": "injetavel",
-          "concentration": ["Ampola"],
+          "concentration": [
+            "Ampola"
+          ],
           "default_recipe": {
             "frequency": [],
             "frequency_unit": "Conforme orientação",
@@ -1816,11 +2799,15 @@
     },
     {
       "generic_name": "Ceftriaxona",
-      "category_slugs": ["antibiotico"],
+      "category_slugs": [
+        "antibiotico"
+      ],
       "presentations": [
         {
           "form_slug": "injetavel",
-          "concentration": ["Injetável"],
+          "concentration": [
+            "Injetável"
+          ],
           "default_recipe": {
             "frequency": [],
             "frequency_unit": "Conforme orientação",
@@ -1834,13 +2821,20 @@
     },
     {
       "generic_name": "Penicilina Benzatina",
-      "category_slugs": ["antibiotico"],
+      "category_slugs": [
+        "antibiotico"
+      ],
       "presentations": [
         {
           "form_slug": "injetavel",
-          "concentration": ["600.000ui", "1.200.000ui"],
+          "concentration": [
+            "600.000ui",
+            "1.200.000ui"
+          ],
           "default_recipe": {
-            "frequency": ["dose única"],
+            "frequency": [
+              "dose única"
+            ],
             "frequency_unit": "dose única",
             "quantity": [],
             "quantity_unit": "amp",
@@ -1852,13 +2846,21 @@
     },
     {
       "generic_name": "Benalete",
-      "category_slugs": ["antitussigeno", "analgesico_topico_oral"],
+      "category_slugs": [
+        "antitussigeno",
+        "analgesico_topico_oral"
+      ],
       "presentations": [
         {
           "form_slug": "pastilha",
-          "concentration": ["pastilha"],
+          "concentration": [
+            "pastilha"
+          ],
           "default_recipe": {
-            "frequency": ["1", "6/6"],
+            "frequency": [
+              "1",
+              "6/6"
+            ],
             "frequency_unit": "horas",
             "quantity": [],
             "quantity_unit": "un",

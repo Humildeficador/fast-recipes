@@ -1,7 +1,8 @@
 {
   "scripts": {
     "dev": "tsx watch ./src/server.ts",
-    "seed": "tsx ./prisma/seed.ts"
+    "seed": "tsx ./prisma/seed/seed.ts",
+    "helper": "tsx  ./src/helpers/helper.ts"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.13",
