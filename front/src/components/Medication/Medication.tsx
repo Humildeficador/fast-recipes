@@ -2,17 +2,18 @@ import { Checkbox } from "@chakra-ui/react"
 import type { MedicationType } from '../../types/types'
 
 interface MedicationProps {
+  isChecked: boolean
   medication: MedicationType
-  medicationsList: MedicationType[]
   toggleMedication: (medication: MedicationType) => void
 }
 
 export function Medication({
   medication,
-  medicationsList,
+  isChecked,
   toggleMedication
 }: MedicationProps) {
-  const isChecked = medicationsList.some(m => m.id === medication.id)
+
+  console.log('Render')
 
   return (
     <Checkbox.Root

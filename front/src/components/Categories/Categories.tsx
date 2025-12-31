@@ -1,7 +1,7 @@
 import { api } from '../../services/api'
 import { useRef, useState } from 'react'
 import { Medication } from '../Medication/Medication'
-import { Accordion, Span, Stack } from "@chakra-ui/react"
+import { Accordion, For, Span, Stack } from "@chakra-ui/react"
 import type { CategoryType, MedicationType } from '../../types/types'
 import { usePrescription } from '../../context/PrescriptionContext'
 
@@ -22,7 +22,6 @@ export function Categories({ name, slug }: CategoryProps) {
     setMedications(() => res.data)
   }
 
-
   return (
     <Accordion.Item value={name} >
       <Accordion.ItemTrigger onClick={getCategoryMedications}>
@@ -32,9 +31,20 @@ export function Categories({ name, slug }: CategoryProps) {
       <Accordion.ItemContent>
         <Accordion.ItemBody>
           <Stack padding={3} borderWidth="1px" gap={5}>
-            {medications.length > 0 && medications.map((medication) => (
-              <Medication medication={medication} medicationsList={medicationsList} toggleMedication={toggleMedication} key={medication.id} />
-            ))}
+            <For each={medications}>
+              {(medication) => {
+                const isChecked = medicationsList.some(m => m.id === medication.id)
+
+                return (
+                  <Medication
+                    isChecked={isChecked}
+                    medication={medication}
+                    toggleMedication={toggleMedication}
+                    key={medication.id}
+                  />
+                )
+              }}
+            </For>
           </Stack>
         </Accordion.ItemBody>
       </Accordion.ItemContent>

@@ -1,4 +1,4 @@
-import { Span, Stack } from '@chakra-ui/react';
+import { For, Stack, Text } from '@chakra-ui/react';
 import { usePrescription } from '../../context/PrescriptionContext';
 
 export function SelectedMedication() {
@@ -7,9 +7,11 @@ export function SelectedMedication() {
 
   return (
     <Stack>
-      {medicationsList.map((medication) => (
-        <Span>{medication.name}</Span>
-      ))}
+      <For each={medicationsList}>
+        {(medication) => (
+          <Text key={medication.id}>{medication.name}</Text>
+        )}
+      </For>
     </Stack>
   )
 }
