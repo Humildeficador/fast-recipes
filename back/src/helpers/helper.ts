@@ -9,7 +9,6 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 function helper() {
-
   const output = medications.map(({ generic_name, category_slugs }) => {
     return {
       name: generic_name,
