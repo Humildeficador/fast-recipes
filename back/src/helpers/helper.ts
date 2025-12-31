@@ -4,6 +4,7 @@ import { medications } from '../../prisma/seed/medications'
 import { fileURLToPath } from 'url'
 import { medicationsCategories } from './medicationsCategories'
 import { prisma } from '../lib/prisma'
+import { test } from '../../prisma/seed/test'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -96,3 +97,57 @@ async function helper3() {
     data: relations
   })
 }
+
+async function helper4() {
+  /* Medications */
+  for (const { generic_name, presentations } of medications) {
+    const medicationRes = await prisma.medication.findFirst({
+      where: {
+        name: generic_name
+      }
+    })
+
+    if (!medicationRes) return
+
+    /* Forms */
+    for (const presentation of presentations) {
+      const formRes = await prisma.form.findUnique({
+        where: {
+          slug: presentation.form_slug
+        }
+      })
+
+      if (!formRes) return
+
+      const hasMedicationForm = await prisma.medicationForm.findFirst({
+        where: {
+          formId: formRes.id,
+          medicationId: medicationRes.id
+        }
+      })
+
+      if (hasMedicationForm) continue
+
+      const medicationFormRes = await prisma.medicationForm.create({
+        data: {
+          formId: formRes.id,
+          medicationId: medicationRes.id
+        }
+      })
+
+      const data = {
+        medicationFormId: medicationFormRes.id,
+        dosage: JSON.stringify(presentation.concentration),
+        frequency: JSON.stringify(presentation.default_recipe.frequency),
+        quantity: JSON.stringify(presentation.default_recipe.quantity),
+        pediatric_calculation: JSON.stringify(presentation.default_recipe.pediatric_calculation),
+        duration: JSON.stringify(presentation.default_recipe.duration_text)
+      }
+
+      await prisma.prescription.create({ data })
+    }
+
+  }
+}
+
+helper4()

@@ -27,9 +27,8 @@ model Medication {
   id   Int    @id @default(autoincrement())
   name String
 
-  categories    CategoryMedication[]
-  forms         MedicationForm[]
-  prescriptions Prescription[]
+  categories CategoryMedication[]
+  forms      MedicationForm[]
 }
 
 model Form {
@@ -38,8 +37,7 @@ model Form {
   name       String
   unit_label String
 
-  medications   MedicationForm[]
-  prescriptions Prescription[]
+  medications MedicationForm[]
 }
 
 /**
@@ -69,6 +67,8 @@ model MedicationForm {
 
   isActive Boolean @default(true)
 
+  prescriptions Prescription[]
+
   @@unique([medicationId, formId])
 }
 
@@ -78,16 +78,14 @@ model MedicationForm {
 model Prescription {
   id Int @id @default(autoincrement())
 
-  medicationId Int
-  formId       Int
+  medicationFormId Int
 
-  medication Medication @relation(fields: [medicationId], references: [id])
-  form       Form       @relation(fields: [formId], references: [id])
+  medicationForm MedicationForm @relation(fields: [medicationFormId], references: [id])
 
   dosage                Json
   frequency             Json
-  duration              Json
   quantity              Json
+  duration              Json?
   pediatric_calculation String?
   frequency_unit        String?
 }

@@ -9,20 +9,18 @@ import { SelectedMedication } from './components/SelectedMedication/SelectedMedi
 
 export function App() {
   const [categories, setCategories] = useState<CategoryList>([])
-  const { medications } = usePrescription()
+  const { medicationsList } = usePrescription()
 
   useEffect(() => {
     async function getCategories() {
       const res = await api.get<CategoryList>('/categories')
       setCategories(() => res.data)
-
-      console.log(res.data)
     }
 
     getCategories()
   }, [])
 
-  const templateColumnsLogic = medications.length > 0 ? 'repeat(3, 1fr)' : '1fr'
+  const templateColumnsLogic = medicationsList.length > 0 ? 'repeat(3, 1fr)' : '1fr'
 
   return (
     <Grid templateColumns={templateColumnsLogic} gap={6}>
@@ -40,7 +38,7 @@ export function App() {
         </Accordion.Root>
       </GridItem>
 
-      {medications.length > 0 &&
+      {medicationsList.length > 0 &&
         <GridItem>
           <SelectedMedication />
         </GridItem>

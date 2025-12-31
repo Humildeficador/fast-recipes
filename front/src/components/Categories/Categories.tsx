@@ -3,12 +3,14 @@ import { useRef, useState } from 'react'
 import { Medication } from '../Medication/Medication'
 import { Accordion, Span, Stack } from "@chakra-ui/react"
 import type { CategoryType, MedicationType } from '../../types/types'
+import { usePrescription } from '../../context/PrescriptionContext'
 
 type CategoryProps = Omit<CategoryType, 'id'>
 
 export function Categories({ name, slug }: CategoryProps) {
   const [medications, setMedications] = useState<MedicationType[]>([])
   const isLoaded = useRef(false)
+  const { medicationsList, toggleMedication } = usePrescription()
 
   async function getCategoryMedications() {
     if (isLoaded.current) return
@@ -31,7 +33,7 @@ export function Categories({ name, slug }: CategoryProps) {
         <Accordion.ItemBody>
           <Stack padding={3} borderWidth="1px" gap={5}>
             {medications.length > 0 && medications.map((medication) => (
-              <Medication medication={medication} key={medication.id} />
+              <Medication medication={medication} medicationsList={medicationsList} toggleMedication={toggleMedication} key={medication.id} />
             ))}
           </Stack>
         </Accordion.ItemBody>

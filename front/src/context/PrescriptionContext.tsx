@@ -2,14 +2,14 @@ import { createContext, useContext, useState } from 'react'
 import type { MedicationType } from '../types/types'
 
 interface PrescriptionContextData {
-  medications: MedicationType[],
+  medicationsList: MedicationType[],
   toggleMedication: (medication: MedicationType) => void
 }
 
 const PrescriptionContext = createContext<PrescriptionContextData | null>(null)
 
 export function PrescriptionProvider({ children }: { children: React.ReactNode }) {
-  const [medications, setMedications] = useState<MedicationType[]>([])
+  const [medicationsList, setMedications] = useState<MedicationType[]>([])
 
   function toggleMedication(medication: MedicationType) {
     setMedications((prev) => {
@@ -24,7 +24,7 @@ export function PrescriptionProvider({ children }: { children: React.ReactNode }
   }
 
   return (
-    <PrescriptionContext.Provider value={{ medications, toggleMedication }}>
+    <PrescriptionContext.Provider value={{ medicationsList, toggleMedication }}>
       {children}
     </PrescriptionContext.Provider>
   )
