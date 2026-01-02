@@ -1,4 +1,3 @@
-import { api } from './services/api'
 import { useEffect, useState } from 'react'
 import { Accordion, Stack } from "@chakra-ui/react"
 import type { CategoryList } from './types/types'
@@ -6,18 +5,17 @@ import { Categories } from './components/Categories/Categories'
 import { Grid, GridItem } from "@chakra-ui/react"
 import { usePrescription } from './context/PrescriptionContext'
 import { SelectedMedication } from './components/SelectedMedication/SelectedMedication'
+import { getAllCategories } from './routes/getAllCategories'
 
 export function App() {
   const [categories, setCategories] = useState<CategoryList>([])
   const { medicationsList } = usePrescription()
 
   useEffect(() => {
-    async function getCategories() {
-      const res = await api.get<CategoryList>('/categories')
+    (async () => {
+      const res = await getAllCategories()
       setCategories(() => res.data)
-    }
-
-    getCategories()
+    })()
   }, [])
 
   const templateColumnsLogic = medicationsList.length > 0 ? 'repeat(3, 1fr)' : '1fr'

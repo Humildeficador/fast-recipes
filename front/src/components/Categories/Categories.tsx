@@ -1,9 +1,9 @@
-import { api } from '../../services/api'
 import { useRef, useState } from 'react'
 import { Medication } from '../Medication/Medication'
 import { Accordion, For, Span, Stack } from "@chakra-ui/react"
 import type { CategoryType, MedicationType } from '../../types/types'
 import { usePrescription } from '../../context/PrescriptionContext'
+import { getMedicationsByCategory } from '../../routes/getMedicationsByCategory'
 
 type CategoryProps = Omit<CategoryType, 'id'>
 
@@ -15,7 +15,7 @@ export function Categories({ name, slug }: CategoryProps) {
   async function getCategoryMedications() {
     if (isLoaded.current) return
 
-    const res = await api.get<MedicationType[]>(`/category/${slug}/medications`)
+    const res = await getMedicationsByCategory(slug)
 
     if (res.status === 200) isLoaded.current = true
 

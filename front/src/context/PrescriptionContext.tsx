@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from 'react'
+import { createContext, useCallback, useContext, useMemo, useState } from 'react'
 import type { MedicationType } from '../types/types'
 
 interface PrescriptionContextData {
@@ -11,7 +11,7 @@ const PrescriptionContext = createContext<PrescriptionContextData | null>(null)
 export function PrescriptionProvider({ children }: { children: React.ReactNode }) {
   const [medicationsList, setMedications] = useState<MedicationType[]>([])
 
-  function toggleMedication(medication: MedicationType) {
+  const toggleMedication = useCallback((medication: MedicationType) => {
     setMedications((prev) => {
       const exists = prev.some(med => med.id === medication.id)
 
@@ -21,10 +21,15 @@ export function PrescriptionProvider({ children }: { children: React.ReactNode }
 
       return [...prev, medication]
     })
-  }
+  }, [])
+
+  const value = useMemo(() => ({
+    medicationsList,
+    toggleMedication
+  }), [medicationsList, toggleMedication])
 
   return (
-    <PrescriptionContext.Provider value={{ medicationsList, toggleMedication }}>
+    <PrescriptionContext.Provider value={value}>
       {children}
     </PrescriptionContext.Provider>
   )

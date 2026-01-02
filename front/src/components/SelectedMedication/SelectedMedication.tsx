@@ -6,7 +6,7 @@ export function SelectedMedication() {
   console.log(medicationsList)
 
   return (
-    <Stack>
+    <Stack position={'sticky'} top={4} >
       <For each={medicationsList}>
         {(medication) => (
           <Text key={medication.id}>{medication.name}</Text>
