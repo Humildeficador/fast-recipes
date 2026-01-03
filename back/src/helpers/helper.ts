@@ -99,6 +99,8 @@ async function helper3() {
 }
 
 async function helper4() {
+  await prisma.prescription.deleteMany()
+  await prisma.medicationForm.deleteMany()
   /* Medications */
   for (const { generic_name, presentations } of medications) {
     const medicationRes = await prisma.medication.findFirst({
@@ -146,8 +148,9 @@ async function helper4() {
 
       await prisma.prescription.create({ data })
     }
-
   }
+
+  console.log('Seed executado depois de muito choro!')
 }
 
 helper4()
