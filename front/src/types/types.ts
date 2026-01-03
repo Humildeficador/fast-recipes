@@ -9,5 +9,20 @@ export interface CategoryType {
 export interface MedicationType {
   id: number
   name: string
-  forms: []
+  forms: Forms[]
+}
+
+export interface Forms {
+  id: number,
+  medicationId: number,
+  formId: number,
+  isActive: boolean,
+  form: Form
+}
+
+export interface Form {
+  id: number,
+  slug: string,
+  name: string,
+  unit_label: string
 }

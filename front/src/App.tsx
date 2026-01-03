@@ -4,7 +4,7 @@ import type { CategoryList } from './types/types'
 import { Categories } from './components/Categories/Categories'
 import { Grid, GridItem } from "@chakra-ui/react"
 import { usePrescription } from './context/PrescriptionContext'
-import { SelectedMedication } from './components/SelectedMedication/SelectedMedication'
+import { CheckedMedications } from './components/CheckedMedications/CheckedMedications'
 import { getAllCategories } from './routes/getAllCategories'
 
 export function App() {
@@ -38,17 +38,9 @@ export function App() {
 
       {medicationsList.length > 0 &&
         <GridItem>
-          <SelectedMedication />
+          <CheckedMedications />
         </GridItem>
       }
-
-      {/* {medications.length > 0 &&
-        <Stack mt={5} gap={2}>
-          {medications.map((medication) => (
-            <SelectedMedication medication={medication} key={medication.id} />
-          ))}
-        </Stack>
-      } */}
     </Grid>
   )
 }
