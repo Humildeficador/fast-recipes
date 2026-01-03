@@ -1,6 +1,6 @@
 import { For, Stack } from '@chakra-ui/react'
 import { usePrescription } from '../../context/PrescriptionContext'
-import { CheckedMedication } from './CheckedMedication/CheckMedication'
+import { CheckedMedication } from './CheckedMedication/CheckedMedication'
 
 export function CheckedMedications() {
   const { medicationsList } = usePrescription()

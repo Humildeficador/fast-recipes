@@ -1,5 +1,5 @@
 import type { MedicationType } from '../../../types/types'
-import { getPrescription } from '../../../routes/getFormsByMedication'
+import { getPrescription } from '../../../routes/getPrescription'
 import { Box, createListCollection, Portal, Select, type MenuSelectionDetails } from '@chakra-ui/react'
 
 interface SelectedMedicationProps {
