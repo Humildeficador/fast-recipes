@@ -1,21 +1,26 @@
 import type { MedicationType } from '../../../types/types'
 import { getPrescription } from '../../../routes/getPrescription'
-import { Box, createListCollection, Portal, Select, type MenuSelectionDetails } from '@chakra-ui/react'
+import { Box, createListCollection, type MenuSelectionDetails } from '@chakra-ui/react'
+import { SelectBuilder } from '../../SelectBuilder/SelectBuilder'
 
 interface SelectedMedicationProps {
   medication: MedicationType
 }
 
 export function CheckedMedication({ medication }: SelectedMedicationProps) {
-  const formsLabel = medication.forms.map(f => {
-    return {
-      label: f.form.name,
-      value: f.form.id,
-      slug: f.form.slug
-    }
-  })
+  function createCollectionForSelect() {
+    const formsLabel = medication.forms.map(f => {
+      return {
+        label: f.form.name,
+        value: f.form.id,
+        slug: f.form.slug
+      }
+    })
 
-  const list = createListCollection({ items: formsLabel })
+    const list = createListCollection({ items: formsLabel })
+
+    return list
+  }
 
   async function handleChangeSelectChangeValue(e: MenuSelectionDetails) {
     const { data } = await getPrescription({ formId: e.value, medicationId: medication.id })
@@ -24,7 +29,13 @@ export function CheckedMedication({ medication }: SelectedMedicationProps) {
 
   return (
     <Box>
-      <Select.Root
+      <SelectBuilder
+        label={medication.name}
+        list={createCollectionForSelect()}
+        handleChangeSelectChangeValue={handleChangeSelectChangeValue}
+      />
+
+      {/* <Select.Root
         collection={list}
         size="sm"
         width="280px"
@@ -52,7 +63,7 @@ export function CheckedMedication({ medication }: SelectedMedicationProps) {
             </Select.Content>
           </Select.Positioner>
         </Portal>
-      </Select.Root>
+      </Select.Root> */}
     </Box>
   )
 }
