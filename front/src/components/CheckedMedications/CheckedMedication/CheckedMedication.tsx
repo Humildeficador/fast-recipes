@@ -31,6 +31,7 @@ export function CheckedMedication({ medication }: SelectedMedicationProps) {
     <Box>
       <SelectBuilder
         label={medication.name}
+        placeholder='Selecione a forma de aplicação'
         list={createCollectionForSelect()}
         handleChangeSelectChangeValue={handleChangeSelectChangeValue}
       />

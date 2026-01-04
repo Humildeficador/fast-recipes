@@ -3,12 +3,14 @@ import { Select, Portal, type ListCollection, type MenuSelectionDetails } from '
 interface SelectBuilderProps {
   label: string
   list: ListCollection
+  placeholder: string,
   handleChangeSelectChangeValue: (e: MenuSelectionDetails) => void
 }
 
 export function SelectBuilder({
   list,
   label,
+  placeholder,
   handleChangeSelectChangeValue
 }: SelectBuilderProps) {
   return (
@@ -22,7 +24,7 @@ export function SelectBuilder({
       <Select.Label>{label}</Select.Label>
       <Select.Control>
         <Select.Trigger>
-          <Select.ValueText placeholder="Selecione a forma de aplicação" />
+          <Select.ValueText placeholder={placeholder} />
         </Select.Trigger>
         <Select.IndicatorGroup>
           <Select.Indicator />
