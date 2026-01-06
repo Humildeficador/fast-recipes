@@ -4,6 +4,7 @@ import type { MedicationType } from '../types/types'
 interface PrescriptionContextData {
   medicationsList: MedicationType[],
   toggleMedication: (medication: MedicationType) => void
+  removeMedication: (id: number) => void
 }
 
 const PrescriptionContext = createContext<PrescriptionContextData | null>(null)
@@ -23,10 +24,23 @@ export function PrescriptionProvider({ children }: { children: React.ReactNode }
     })
   }, [])
 
+  const removeMedication = useCallback((id: number) => {
+    setMedications((prev) => {
+      const exists = prev.some(med => med.id === id)
+
+      if (exists) {
+        return prev.filter(med => med.id !== id)
+      } else {
+        return prev
+      }
+    })
+  }, [])
+
   const value = useMemo(() => ({
     medicationsList,
-    toggleMedication
-  }), [medicationsList, toggleMedication])
+    toggleMedication,
+    removeMedication
+  }), [medicationsList, toggleMedication, removeMedication])
 
   return (
     <PrescriptionContext.Provider value={value}>

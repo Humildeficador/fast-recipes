@@ -1,16 +1,28 @@
-import { Select, Portal, type ListCollection, type MenuSelectionDetails } from '@chakra-ui/react';
+import { Select, Portal, type ListCollection, type MenuSelectionDetails, Box } from '@chakra-ui/react';
+import { usePrescription } from '../../context/PrescriptionContext';
+import { LuTrash } from 'react-icons/lu';
 
 interface SelectBuilderProps {
   label: string
   list: ListCollection
+  medicationId: number
+  enableRemoveMedication?: boolean
   handleChangeSelectChangeValue: (e: MenuSelectionDetails) => void
 }
 
 export function SelectBuilder({
   list,
   label,
+  medicationId,
+  enableRemoveMedication,
   handleChangeSelectChangeValue
 }: SelectBuilderProps) {
+  const { removeMedication } = usePrescription()
+
+  function handleRemoveMedication() {
+    removeMedication(medicationId)
+  }
+
   return (
     <Select.Root
       collection={list}
@@ -19,7 +31,15 @@ export function SelectBuilder({
       onSelect={handleChangeSelectChangeValue}
     >
       <Select.HiddenSelect />
-      <Select.Label>{label}</Select.Label>
+      <Select.Label display={'flex'} alignItems={'center'}>
+        {label}
+        {
+          enableRemoveMedication &&
+          <Box onClick={handleRemoveMedication} cursor={'pointer'} ml={2}>
+            <LuTrash />
+          </Box>
+        }
+      </Select.Label>
       <Select.Control>
         <Select.Trigger>
           <Select.ValueText placeholder="Selecione a forma de aplicação" />

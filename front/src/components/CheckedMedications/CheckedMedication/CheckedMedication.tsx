@@ -32,6 +32,8 @@ export function CheckedMedication({ medication }: SelectedMedicationProps) {
       <SelectBuilder
         label={medication.name}
         list={createCollectionForSelect()}
+        medicationId={medication.id}
+        enableRemoveMedication
         handleChangeSelectChangeValue={handleChangeSelectChangeValue}
       />
 
