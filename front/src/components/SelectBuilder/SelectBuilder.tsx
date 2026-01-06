@@ -5,6 +5,7 @@ import { LuTrash } from 'react-icons/lu';
 interface SelectBuilderProps {
   label: string
   list: ListCollection
+  placeholder: string,
   medicationId: number
   enableRemoveMedication?: boolean
   handleChangeSelectChangeValue: (e: MenuSelectionDetails) => void
@@ -13,6 +14,7 @@ interface SelectBuilderProps {
 export function SelectBuilder({
   list,
   label,
+  placeholder,
   medicationId,
   enableRemoveMedication,
   handleChangeSelectChangeValue
@@ -42,7 +44,7 @@ export function SelectBuilder({
       </Select.Label>
       <Select.Control>
         <Select.Trigger>
-          <Select.ValueText placeholder="Selecione a forma de aplicação" />
+          <Select.ValueText placeholder={placeholder} />
         </Select.Trigger>
         <Select.IndicatorGroup>
           <Select.Indicator />
