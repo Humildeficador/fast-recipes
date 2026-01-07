@@ -6,11 +6,8 @@ interface SelectBuilderProps {
   label: string
   list: ListCollection
   placeholder: string,
-<<<<<<< HEAD
-=======
   medicationId: number
   enableRemoveMedication?: boolean
->>>>>>> c9718ade9590b28dbff0bac51db7be7ad95e3a57
   handleChangeSelectChangeValue: (e: MenuSelectionDetails) => void
 }
 
@@ -18,11 +15,8 @@ export function SelectBuilder({
   list,
   label,
   placeholder,
-<<<<<<< HEAD
-=======
   medicationId,
   enableRemoveMedication,
->>>>>>> c9718ade9590b28dbff0bac51db7be7ad95e3a57
   handleChangeSelectChangeValue
 }: SelectBuilderProps) {
   const { removeMedication } = usePrescription()
