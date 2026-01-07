@@ -33,6 +33,8 @@ export function CheckedMedication({ medication }: SelectedMedicationProps) {
         label={medication.name}
         placeholder='Selecione a forma de aplicação'
         list={createCollectionForSelect()}
+        medicationId={medication.id}
+        enableRemoveMedication
         handleChangeSelectChangeValue={handleChangeSelectChangeValue}
       />
 
