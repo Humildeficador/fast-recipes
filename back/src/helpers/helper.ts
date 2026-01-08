@@ -141,6 +141,7 @@ async function helper4() {
         medicationFormId: medicationFormRes.id,
         dosage: JSON.stringify(presentation.concentration),
         frequency: JSON.stringify(presentation.default_recipe.frequency),
+        frequency_unit: JSON.stringify(presentation.default_recipe.frequency_unit),
         quantity: JSON.stringify(presentation.default_recipe.quantity),
         pediatric_calculation: JSON.stringify(presentation.default_recipe.pediatric_calculation),
         duration: JSON.stringify(presentation.default_recipe.duration_text)
@@ -153,4 +154,38 @@ async function helper4() {
   console.log('Seed executado depois de muito choro!')
 }
 
-helper4()
+async function helper5() {
+  const prescriptions = await prisma.prescription.findMany()
+
+  for (const prescription of prescriptions) {
+    const id = prescription.id
+
+    const dosage: string[] = JSON.parse(prescription.dosage!.toString())
+    const frequency: string[] = JSON.parse(prescription.frequency!.toString())
+    const quantity: string[] = JSON.parse(prescription.quantity!.toString())
+    const duration: string[] = JSON.parse(prescription.duration!.toString())
+    const pediatric_calculation: string[] = JSON.parse(prescription.pediatric_calculation!.toString())
+
+    dosage.push('Outra...')
+    frequency.push('Outra...')
+    quantity.push('Outra...')
+    duration.push('Outra...')
+    pediatric_calculation.push('Outra...')
+
+    await prisma.prescription.update({
+      where: {
+        id
+      },
+      data: {
+        dosage,
+        frequency,
+        quantity,
+        duration,
+        pediatric_calculation,
+      }
+    })
+
+  }
+}
+
+helper5()

@@ -86,6 +86,6 @@ model Prescription {
   frequency             Json
   quantity              Json
   duration              Json?
-  pediatric_calculation String?
-  frequency_unit        String?
+  pediatric_calculation Json?
+  frequency_unit        Json?
 }

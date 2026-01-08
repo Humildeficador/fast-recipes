@@ -23,8 +23,8 @@ export const medications = [
             40
           ],
           "quantity_unit": "gt",
-          "pediatric_calculation": "peso x 0.4",
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": ["peso x 0.4"],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       },
       {
@@ -44,8 +44,8 @@ export const medications = [
             2
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": [],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       },
       {
@@ -62,8 +62,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "amp",
-          "pediatric_calculation": "peso x 0.02ml",
-          "duration_text": "imediato"
+          "pediatric_calculation": ["peso x 0.02ml"],
+          "duration_text": ["imediato"]
         }
       }
     ]
@@ -91,8 +91,8 @@ export const medications = [
             40
           ],
           "quantity_unit": "gt",
-          "pediatric_calculation": "1 gota/kg",
-          "duration_text": "3 dias, 5 dias"
+          "pediatric_calculation": ["1 gota/kg"],
+          "duration_text": ["3 dias, 5 dias"]
         }
       },
       {
@@ -111,8 +111,8 @@ export const medications = [
             2
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "5 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["5 dias"]
         }
       }
     ]
@@ -136,8 +136,8 @@ export const medications = [
           "frequency_unit": "horas",
           "quantity": [],
           "quantity_unit": "gt",
-          "pediatric_calculation": "1 gota/kg",
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": ["1 gota/kg"],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       },
       {
@@ -155,8 +155,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": [],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -183,8 +183,8 @@ export const medications = [
             40
           ],
           "quantity_unit": "gt",
-          "pediatric_calculation": null,
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": [],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -211,8 +211,8 @@ export const medications = [
             40
           ],
           "quantity_unit": "gt",
-          "pediatric_calculation": "1 gota/kg",
-          "duration_text": "5 dias"
+          "pediatric_calculation": ["1 gota/kg"],
+          "duration_text": ["5 dias"]
         }
       }
     ]
@@ -238,8 +238,8 @@ export const medications = [
             40
           ],
           "quantity_unit": "gt",
-          "pediatric_calculation": "1 gota/kg",
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": ["1 gota/kg"],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -263,8 +263,8 @@ export const medications = [
           "frequency_unit": "horas",
           "quantity": [],
           "quantity_unit": "gt",
-          "pediatric_calculation": "conforme dor intensa",
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": ["conforme dor intensa"],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -289,8 +289,8 @@ export const medications = [
             40
           ],
           "quantity_unit": "gt",
-          "pediatric_calculation": null,
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": [],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       },
       {
@@ -307,8 +307,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": [],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -333,8 +333,8 @@ export const medications = [
             5
           ],
           "quantity_unit": "gt",
-          "pediatric_calculation": null,
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": [],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -361,8 +361,8 @@ export const medications = [
             2
           ],
           "quantity_unit": "gt",
-          "pediatric_calculation": null,
-          "duration_text": "7 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["7 dias"]
         }
       }
     ]
@@ -388,8 +388,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "5 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["5 dias"]
         }
       },
       {
@@ -406,8 +406,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "amp",
-          "pediatric_calculation": null,
-          "duration_text": "imediato"
+          "pediatric_calculation": [],
+          "duration_text": ["imediato"]
         }
       }
     ]
@@ -432,8 +432,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "5 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["5 dias"]
         }
       },
       {
@@ -448,8 +448,8 @@ export const medications = [
           "frequency_unit": "vezes ao dia",
           "quantity": [],
           "quantity_unit": "ml",
-          "pediatric_calculation": "peso/4 ml",
-          "duration_text": "5 dias"
+          "pediatric_calculation": ["peso/4 ml"],
+          "duration_text": ["5 dias"]
         }
       }
     ]
@@ -474,8 +474,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "7 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["7 dias"]
         }
       }
     ]
@@ -500,8 +500,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "7 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["7 dias"]
         }
       },
       {
@@ -516,8 +516,8 @@ export const medications = [
           "frequency_unit": "horas",
           "quantity": [],
           "quantity_unit": "ml",
-          "pediatric_calculation": "variável",
-          "duration_text": "7-10 dias"
+          "pediatric_calculation": ["variável"],
+          "duration_text": ["7-10 dias"]
         }
       }
     ]
@@ -544,8 +544,8 @@ export const medications = [
             2
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "3 dias, 5 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["3 dias, 5 dias"]
         }
       }
     ]
@@ -571,8 +571,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "5 dias, 7 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["5 dias, 7 dias"]
         }
       },
       {
@@ -590,8 +590,8 @@ export const medications = [
             10
           ],
           "quantity_unit": "ml",
-          "pediatric_calculation": null,
-          "duration_text": "5 dias, 7 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["5 dias, 7 dias"]
         }
       }
     ]
@@ -617,8 +617,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "5 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["5 dias"]
         }
       }
     ]
@@ -644,8 +644,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": [],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -670,8 +670,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": [],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -698,8 +698,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "5 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["5 dias"]
         }
       }
     ]
@@ -722,8 +722,8 @@ export const medications = [
           "frequency_unit": "dose única",
           "quantity": [],
           "quantity_unit": "cp",
-          "pediatric_calculation": "variável conforme peso (0.2mg/kg)",
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": ["variável conforme peso (0.2mg/kg)"],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -750,8 +750,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "7 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["7 dias"]
         }
       },
       {
@@ -766,8 +766,8 @@ export const medications = [
           "frequency_unit": "horas",
           "quantity": [],
           "quantity_unit": "ml",
-          "pediatric_calculation": "peso/2 ml",
-          "duration_text": "7 dias"
+          "pediatric_calculation": ["peso/2 ml"],
+          "duration_text": ["7 dias"]
         }
       }
     ]
@@ -794,8 +794,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "5 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["5 dias"]
         }
       }
     ]
@@ -821,8 +821,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "1 dia"
+          "pediatric_calculation": [],
+          "duration_text": ["1 dia"]
         }
       }
     ]
@@ -847,8 +847,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "até cessar diarreia (max 7 dias)"
+          "pediatric_calculation": [],
+          "duration_text": ["até cessar diarreia (max 7 dias)"]
         }
       }
     ]
@@ -874,8 +874,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "10 dias, 30 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["10 dias, 30 dias"]
         }
       }
     ]
@@ -902,8 +902,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": [],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -929,8 +929,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "7 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["7 dias"]
         }
       }
     ]
@@ -955,8 +955,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "30 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["30 dias"]
         }
       }
     ]
@@ -982,8 +982,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "5 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["5 dias"]
         }
       }
     ]
@@ -1009,8 +1009,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "2 semanas"
+          "pediatric_calculation": [],
+          "duration_text": ["2 semanas"]
         }
       }
     ]
@@ -1036,8 +1036,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "cp",
-          "pediatric_calculation": null,
-          "duration_text": "30 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["30 dias"]
         }
       }
     ]
@@ -1062,8 +1062,8 @@ export const medications = [
           "frequency_unit": "horas",
           "quantity": [],
           "quantity_unit": "ml",
-          "pediatric_calculation": "peso/3 ml, peso/2 ml",
-          "duration_text": "7 dias, 10 dias"
+          "pediatric_calculation": ["peso/3 ml, peso/2 ml"],
+          "duration_text": ["7 dias, 10 dias"]
         }
       }
     ]
@@ -1086,8 +1086,8 @@ export const medications = [
           "frequency_unit": "horas",
           "quantity": [],
           "quantity_unit": "ml",
-          "pediatric_calculation": "peso/3 ml, peso x 0.3",
-          "duration_text": "10 dias"
+          "pediatric_calculation": ["peso/3 ml, peso x 0.3"],
+          "duration_text": ["10 dias"]
         }
       }
     ]
@@ -1111,8 +1111,8 @@ export const medications = [
           "frequency_unit": "vezes ao dia",
           "quantity": [],
           "quantity_unit": "ml",
-          "pediatric_calculation": "peso/3 ml, 1mg/kg/dia",
-          "duration_text": "5 dias"
+          "pediatric_calculation": ["peso/3 ml, 1mg/kg/dia"],
+          "duration_text": ["5 dias"]
         }
       }
     ]
@@ -1138,8 +1138,8 @@ export const medications = [
             5
           ],
           "quantity_unit": "ml",
-          "pediatric_calculation": null,
-          "duration_text": "5 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["5 dias"]
         }
       }
     ]
@@ -1165,8 +1165,8 @@ export const medications = [
           "frequency_unit": "horas",
           "quantity": [],
           "quantity_unit": "ml",
-          "pediatric_calculation": "peso/3 ml",
-          "duration_text": "3 dias, 5 dias"
+          "pediatric_calculation": ["peso/3 ml"],
+          "duration_text": ["3 dias, 5 dias"]
         }
       }
     ]
@@ -1195,8 +1195,8 @@ export const medications = [
             10
           ],
           "quantity_unit": "ml",
-          "pediatric_calculation": null,
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": [],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -1223,8 +1223,8 @@ export const medications = [
             5
           ],
           "quantity_unit": "ml",
-          "pediatric_calculation": null,
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": [],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -1251,8 +1251,8 @@ export const medications = [
             15
           ],
           "quantity_unit": "ml",
-          "pediatric_calculation": null,
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": [],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -1277,8 +1277,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "ml",
-          "pediatric_calculation": null,
-          "duration_text": "30 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["30 dias"]
         }
       }
     ]
@@ -1302,8 +1302,8 @@ export const medications = [
           "frequency_unit": "horas",
           "quantity": [],
           "quantity_unit": "ml",
-          "pediatric_calculation": "variável",
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": ["variável"],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -1332,8 +1332,8 @@ export const medications = [
             5
           ],
           "quantity_unit": "ml",
-          "pediatric_calculation": null,
-          "duration_text": "5 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["5 dias"]
         }
       }
     ]
@@ -1360,8 +1360,8 @@ export const medications = [
             5
           ],
           "quantity_unit": "ml",
-          "pediatric_calculation": null,
-          "duration_text": "5 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["5 dias"]
         }
       }
     ]
@@ -1388,8 +1388,8 @@ export const medications = [
             10
           ],
           "quantity_unit": "ml",
-          "pediatric_calculation": "peso/6 ml",
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": ["peso/6 ml"],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -1413,8 +1413,8 @@ export const medications = [
           "frequency_unit": "horas",
           "quantity": [],
           "quantity_unit": "ml",
-          "pediatric_calculation": "peso x 0.15, peso x 0.3",
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": ["peso x 0.15, peso x 0.3"],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -1440,8 +1440,8 @@ export const medications = [
             10
           ],
           "quantity_unit": "ml",
-          "pediatric_calculation": null,
-          "duration_text": "5 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["5 dias"]
         }
       }
     ]
@@ -1466,8 +1466,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "ml",
-          "pediatric_calculation": null,
-          "duration_text": "5 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["5 dias"]
         }
       }
     ]
@@ -1492,8 +1492,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "ml",
-          "pediatric_calculation": null,
-          "duration_text": "5 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["5 dias"]
         }
       }
     ]
@@ -1520,8 +1520,8 @@ export const medications = [
             5
           ],
           "quantity_unit": "ml",
-          "pediatric_calculation": null,
-          "duration_text": "10 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["10 dias"]
         }
       }
     ]
@@ -1549,8 +1549,8 @@ export const medications = [
             10
           ],
           "quantity_unit": "ml",
-          "pediatric_calculation": null,
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": [],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -1577,8 +1577,8 @@ export const medications = [
             15
           ],
           "quantity_unit": "ml",
-          "pediatric_calculation": null,
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": [],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -1603,8 +1603,8 @@ export const medications = [
             10
           ],
           "quantity_unit": "ml",
-          "pediatric_calculation": null,
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": [],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -1632,8 +1632,8 @@ export const medications = [
             5
           ],
           "quantity_unit": "ml",
-          "pediatric_calculation": null,
-          "duration_text": "5-14 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["5-14 dias"]
         }
       }
     ]
@@ -1659,8 +1659,8 @@ export const medications = [
           "frequency_unit": "vezes ao dia",
           "quantity": [],
           "quantity_unit": "aplicação",
-          "pediatric_calculation": "fina camada",
-          "duration_text": "5-14 dias, 10 dias"
+          "pediatric_calculation": ["fina camada"],
+          "duration_text": ["5-14 dias, 10 dias"]
         }
       }
     ]
@@ -1684,8 +1684,8 @@ export const medications = [
           "frequency_unit": "horas",
           "quantity": [],
           "quantity_unit": "aplicação",
-          "pediatric_calculation": "fina camada",
-          "duration_text": "10 dias, 14 dias"
+          "pediatric_calculation": ["fina camada"],
+          "duration_text": ["10 dias, 14 dias"]
         }
       }
     ]
@@ -1708,8 +1708,8 @@ export const medications = [
           "frequency_unit": "vezes ao dia",
           "quantity": [],
           "quantity_unit": "aplicação",
-          "pediatric_calculation": "fina camada",
-          "duration_text": "7 dias"
+          "pediatric_calculation": ["fina camada"],
+          "duration_text": ["7 dias"]
         }
       }
     ]
@@ -1732,8 +1732,8 @@ export const medications = [
           "frequency_unit": "horas",
           "quantity": [],
           "quantity_unit": "aplicação",
-          "pediatric_calculation": "fina camada",
-          "duration_text": "2-4 semanas"
+          "pediatric_calculation": ["fina camada"],
+          "duration_text": ["2-4 semanas"]
         }
       }
     ]
@@ -1757,8 +1757,8 @@ export const medications = [
           "frequency_unit": "vezes ao dia",
           "quantity": [],
           "quantity_unit": "aplicação",
-          "pediatric_calculation": "aplicar no couro cabeludo",
-          "duration_text": "4 semanas"
+          "pediatric_calculation": ["aplicar no couro cabeludo"],
+          "duration_text": ["4 semanas"]
         }
       }
     ]
@@ -1783,8 +1783,8 @@ export const medications = [
           "frequency_unit": "vezes ao dia",
           "quantity": [],
           "quantity_unit": "aplicação",
-          "pediatric_calculation": "aplicar no corpo todo/cabelo",
-          "duration_text": "3 noites"
+          "pediatric_calculation": ["aplicar no corpo todo/cabelo"],
+          "duration_text": ["3 noites"]
         }
       }
     ]
@@ -1808,8 +1808,8 @@ export const medications = [
           "frequency_unit": "vezes ao dia",
           "quantity": [],
           "quantity_unit": "aplicação",
-          "pediatric_calculation": "aplicar na pele",
-          "duration_text": "3 dias"
+          "pediatric_calculation": ["aplicar na pele"],
+          "duration_text": ["3 dias"]
         }
       }
     ]
@@ -1835,8 +1835,8 @@ export const medications = [
           "frequency_unit": "vezes ao dia",
           "quantity": [],
           "quantity_unit": "aplicação",
-          "pediatric_calculation": "fina camada",
-          "duration_text": "5 dias, 7 dias"
+          "pediatric_calculation": ["fina camada"],
+          "duration_text": ["5 dias, 7 dias"]
         }
       },
       {
@@ -1851,8 +1851,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "amp",
-          "pediatric_calculation": "peso x 0.15",
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": ["peso x 0.15"],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -1878,8 +1878,8 @@ export const medications = [
           "frequency_unit": "horas",
           "quantity": [],
           "quantity_unit": "aplicação",
-          "pediatric_calculation": "fina camada",
-          "duration_text": "7 dias, 10 dias"
+          "pediatric_calculation": ["fina camada"],
+          "duration_text": ["7 dias, 10 dias"]
         }
       },
       {
@@ -1892,8 +1892,8 @@ export const medications = [
           "frequency_unit": "Conforme orientação",
           "quantity": [],
           "quantity_unit": "amp",
-          "pediatric_calculation": "peso x 0.08",
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": ["peso x 0.08"],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -1918,8 +1918,8 @@ export const medications = [
           "frequency_unit": "vezes ao dia",
           "quantity": [],
           "quantity_unit": "aplicação",
-          "pediatric_calculation": "fina camada",
-          "duration_text": "10 dias"
+          "pediatric_calculation": ["fina camada"],
+          "duration_text": ["10 dias"]
         }
       }
     ]
@@ -1944,8 +1944,8 @@ export const medications = [
           "frequency_unit": "a cada troca",
           "quantity": [],
           "quantity_unit": "aplicação",
-          "pediatric_calculation": "camada",
-          "duration_text": "5-10 dias"
+          "pediatric_calculation": ["camada"],
+          "duration_text": ["5-10 dias"]
         }
       }
     ]
@@ -1968,8 +1968,8 @@ export const medications = [
           "frequency_unit": "horas",
           "quantity": [],
           "quantity_unit": "aplicação",
-          "pediatric_calculation": "fina camada",
-          "duration_text": "3 semanas"
+          "pediatric_calculation": ["fina camada"],
+          "duration_text": ["3 semanas"]
         }
       }
     ]
@@ -1992,8 +1992,8 @@ export const medications = [
           "frequency_unit": "horas",
           "quantity": [],
           "quantity_unit": "aplicação",
-          "pediatric_calculation": "fina camada",
-          "duration_text": "7 dias"
+          "pediatric_calculation": ["fina camada"],
+          "duration_text": ["7 dias"]
         }
       }
     ]
@@ -2017,8 +2017,8 @@ export const medications = [
           "frequency_unit": "horas",
           "quantity": [],
           "quantity_unit": "aplicação",
-          "pediatric_calculation": "aplicar sobre a pele",
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": ["aplicar sobre a pele"],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -2042,8 +2042,8 @@ export const medications = [
           "frequency_unit": "horas",
           "quantity": [],
           "quantity_unit": "aplicação",
-          "pediatric_calculation": "aplicar na região",
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": ["aplicar na região"],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -2067,8 +2067,8 @@ export const medications = [
           "frequency_unit": "horas",
           "quantity": [],
           "quantity_unit": "aplicação",
-          "pediatric_calculation": "aplicar na garganta",
-          "duration_text": "7 dias"
+          "pediatric_calculation": ["aplicar na garganta"],
+          "duration_text": ["7 dias"]
         }
       }
     ]
@@ -2091,8 +2091,8 @@ export const medications = [
           "frequency_unit": "horas",
           "quantity": [],
           "quantity_unit": "aplicação",
-          "pediatric_calculation": "diluir 1 cp em 2L água para banho",
-          "duration_text": "5 dias"
+          "pediatric_calculation": ["diluir 1 cp em 2L água para banho"],
+          "duration_text": ["5 dias"]
         }
       }
     ]
@@ -2121,8 +2121,8 @@ export const medications = [
             10
           ],
           "quantity_unit": "jato",
-          "pediatric_calculation": null,
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": [],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -2149,8 +2149,8 @@ export const medications = [
             2
           ],
           "quantity_unit": "jato",
-          "pediatric_calculation": null,
-          "duration_text": "10 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["10 dias"]
         }
       }
     ]
@@ -2174,8 +2174,8 @@ export const medications = [
           "frequency_unit": "horas",
           "quantity": [],
           "quantity_unit": "jato",
-          "pediatric_calculation": "1 jato, 2 jatos, 3 puffs",
-          "duration_text": "10 dias"
+          "pediatric_calculation": ["1 jato, 2 jatos, 3 puffs"],
+          "duration_text": ["10 dias"]
         }
       }
     ]
@@ -2201,8 +2201,8 @@ export const medications = [
             4
           ],
           "quantity_unit": "jato",
-          "pediatric_calculation": null,
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": [],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -2229,8 +2229,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "jato",
-          "pediatric_calculation": null,
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": [],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -2259,8 +2259,8 @@ export const medications = [
             2
           ],
           "quantity_unit": "gt",
-          "pediatric_calculation": null,
-          "duration_text": "5 dias, 7 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["5 dias, 7 dias"]
         }
       }
     ]
@@ -2286,8 +2286,8 @@ export const medications = [
             2
           ],
           "quantity_unit": "gt",
-          "pediatric_calculation": null,
-          "duration_text": "7 a 14 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["7 a 14 dias"]
         }
       }
     ]
@@ -2313,8 +2313,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "gt",
-          "pediatric_calculation": null,
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": [],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -2337,8 +2337,8 @@ export const medications = [
           "frequency_unit": "vezes ao dia",
           "quantity": [],
           "quantity_unit": "gt",
-          "pediatric_calculation": "aplicar no olho",
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": ["aplicar no olho"],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -2363,8 +2363,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "gt",
-          "pediatric_calculation": null,
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": [],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -2389,8 +2389,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "gt",
-          "pediatric_calculation": null,
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": [],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -2415,8 +2415,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "gt",
-          "pediatric_calculation": null,
-          "duration_text": "7 a 14 dias"
+          "pediatric_calculation": [],
+          "duration_text": ["7 a 14 dias"]
         }
       }
     ]
@@ -2442,8 +2442,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "sachê",
-          "pediatric_calculation": null,
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": [],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -2468,8 +2468,8 @@ export const medications = [
             1
           ],
           "quantity_unit": "sachê",
-          "pediatric_calculation": null,
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": [],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -2492,8 +2492,8 @@ export const medications = [
           "frequency_unit": "vezes ao dia",
           "quantity": [],
           "quantity_unit": "sachê",
-          "pediatric_calculation": "0.3 - 1.4 g/kg/dia",
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": ["0.3 - 1.4 g/kg/dia"],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -2515,8 +2515,8 @@ export const medications = [
           "frequency_unit": "Conforme orientação",
           "quantity": [],
           "quantity_unit": "amp",
-          "pediatric_calculation": "peso x 0.016",
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": ["peso x 0.016"],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -2539,8 +2539,8 @@ export const medications = [
           "frequency_unit": "Conforme orientação",
           "quantity": [],
           "quantity_unit": "amp",
-          "pediatric_calculation": "peso/100, peso/10",
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": ["peso/100, peso/10"],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -2561,8 +2561,8 @@ export const medications = [
           "frequency_unit": "Conforme orientação",
           "quantity": [],
           "quantity_unit": "amp",
-          "pediatric_calculation": "dose terapêutica",
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": ["dose terapêutica"],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -2586,8 +2586,8 @@ export const medications = [
           "frequency_unit": "dose única",
           "quantity": [],
           "quantity_unit": "amp",
-          "pediatric_calculation": "dose única",
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": ["dose única"],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
@@ -2612,8 +2612,8 @@ export const medications = [
           "frequency_unit": "horas",
           "quantity": [],
           "quantity_unit": "un",
-          "pediatric_calculation": "até 2 pastilhas",
-          "duration_text": "Uso contínuo ou conforme sintomas"
+          "pediatric_calculation": ["até 2 pastilhas"],
+          "duration_text": ["Uso contínuo ou conforme sintomas"]
         }
       }
     ]
