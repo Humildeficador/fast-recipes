@@ -26,3 +26,14 @@ export interface Form {
   name: string,
   unit_label: string
 }
+
+export interface FormSchema {
+  id: number,
+  medicationFormId: number,
+  dosage: string[],
+  frequency: string[],
+  quantity: (string | number)[],
+  duration: string[],
+  pediatric_calculation: string,
+  frequency_unit: string[]
+}
